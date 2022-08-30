@@ -33,7 +33,7 @@ if($_GET['q'] && !empty($_GET['q'])) {
 
 <?php
 $arElems = [];
-$arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");
+$arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*", "DETAIL_TEXT");
 
 if(!empty($searchElemsIds)) {
     $arFilter = Array("IBLOCK_ID"=>IntVal(7), "SECTION_CODE" => "partner", "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y", "ID" => $searchElemsIds);

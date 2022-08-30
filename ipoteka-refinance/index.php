@@ -43,84 +43,19 @@ $APPLICATION->SetTitle("РЕФИНАНСИРОВАТЬ ИПОТЕКУ");
         )
     );?>
 
-
-    <section class="section how-it-works">
-        <div class="wrapper">
-            <div class="section__content-changer g-flex-column">
-                <div class="section__content-tabs -m-left g-flex-justify-center g-flex-align-center fit-content center --mgb60">
-                    <div class="section__content-tab active">
-                        Условия одобрения
-                    </div>
-                    <div class="section__content-tab">
-                        Требования к заемщику
-                    </div>
-                </div>
-                <div class="section__content-slider slider">
-                    <div class="section__content-slide">
-                        <div class="section__shadow-block g-flex-between">
-                            <ul>
-                                <li><b>Сумма:</b> 500 000 р. – 30 млн. рублей</li>
-                                <li><b>Ставка:</b> от 6,99% годовых</li>
-                                <li><b>Срок кредита:</b> от 1 года до 30 лет</li>
-                                <li><b>Поручители:</b> не требуются</li>
-                                <li><b>Срок оформления:</b> решение за 1-5 дней</li>
-                                <li><b>Возраст заёмщика:</b> от 21 до 65 лет</li>
-                                <li><b>Минимальные требования:</b> <br>
-                                    без текущих просрочек по кредитам
-                                </li>
-                            </ul>
-                            <ul>
-                                <li><b>Минимальные документы:</b> <br>
-                                    Паспорт и СНИЛС <br>
-                                    <br>
-                                    Полный список документов для рефинансирования ипотечного кредита формируется
-                                    индивидуально и может быть расширен, исходя из выбранной программы.
-                                </li>
-                                <li><b>Объект залога:</b><br>
-                                    ранее приобретенная в ипотеку недвижимость (квартира, апартаменты, таунхаус, земля,
-                                    дом, комната)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="section__content-slide">
-                        <div class="section__shadow-block g-flex-between">
-                            <ul>
-                                <li><b>Гражданин или резидент Российской Федерации</b><br>
-                                    <br>
-                                    Необходимо иметь паспорт гражданина (паспорт РФ не обязательно) и свидетельство
-                                    СНИЛС.
-                                </li>
-                                <li><b>Стаж работы:</b><br>
-                                    от 3 месяцев на текущем месте работы
-                                </li>
-                                <li><b>Наличие постоянной регистрации:</b><br>
-                                    Не обязательно, но приветствуется
-                                </li>
-                            </ul>
-                            <ul>
-                                <li><b>Подтверждение трудоустройства и доходов:</b><br>
-                                    Не обязательно, но приветствуется
-                                </li>
-                                <li><b>Срок действия одобрения на рефинансирование:</b><br>
-                                    Положительное решение действует от 90 до 120 дней
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="/tarifs/#hash__ipoteka" target="_blank"
-               class="section__edge-button wow fadeInLeft g-flex-align-center --mgt90">
-                <div class="arrow g-flex-align-center g-flex-justify-center">
-                    <svg class="icon">
-                        <use xlink:href="#ArrowSquare"></use>
-                    </svg>
-                </div>
-                Наши тарифы
-            </a>
-        </div>
-    </section>
+<?$APPLICATION->IncludeComponent(
+    "bitrix:main.include",
+    "",
+    Array(
+        "AREA_FILE_SHOW" => "file",
+        "AREA_FILE_SUFFIX" => "inc",
+        "EDIT_TEMPLATE" => "",
+        "CLASS_TABS_FLEX" => "g-flex-align-center center ",
+        "DONT_SHOW_BIG_TITLE" => "Y",
+        "DONT_SHOW_SLIDER_TITLE" => "Y",
+        "PATH" => "/include/ipoteka-ref/text.php"
+    )
+);?>
 
     <section class="section --mgb90">
         <div class="wrapper">
@@ -129,84 +64,33 @@ $APPLICATION->SetTitle("РЕФИНАНСИРОВАТЬ ИПОТЕКУ");
         </div>
     </section>
 
-    <section class="section --grayBlock --pdb90">
-        <div class="wrapper">
-            <h3 class="--mgb60">Нам доверяют <span class="--pink">рефинансирование ипотеки <br>
-	в таких случаях как:</span></h3>
-            <div class="section__check-blocks g-flex-wrap g-flex-between --mgb90">
-                <div class="section__check-block">
-                    <svg class="icon">
-                        <use xlink:href="#CheckCircle"></use>
-                    </svg>
-                    “Серая” зарплата
-                </div>
-                <div class="section__check-block">
-                    <svg class="icon">
-                        <use xlink:href="#CheckCircle"></use>
-                    </svg>
-                    Наличие неоднократного отказа банков
-                </div>
-                <div class="section__check-block">
-                    <svg class="icon">
-                        <use xlink:href="#CheckCircle"></use>
-                    </svg>
-                    Сомнительная кредитная история
-                </div>
-                <div class="section__check-block">
-                    <svg class="icon">
-                        <use xlink:href="#CheckCircle"></use>
-                    </svg>
-                    Регистрация в другом регионе или отсутствие российского резидентства
-                </div>
-                <div class="section__check-block">
-                    <svg class="icon">
-                        <use xlink:href="#CheckCircle"></use>
-                    </svg>
-                    Просрочки по кредитам
-                </div>
-                <div class="section__check-block">
-                    <svg class="icon">
-                        <use xlink:href="#CheckCircle"></use>
-                    </svg>
-                    Привлечение материнского капитала
-                </div>
-                <div class="section__check-block">
-                    <svg class="icon">
-                        <use xlink:href="#CheckCircle"></use>
-                    </svg>
-                    Наличие кредитных обязательств
-                </div>
-                <div class="section__check-block">
-                    <svg class="icon">
-                        <use xlink:href="#CheckCircle"></use>
-                    </svg>
-                    Исполнительные производства
-                </div>
-            </div>
-            <h3 class="text-align-end">Счастливые обладатели белой зарплаты<br>
-                и безупречной кредитной истории также<br>
-                <span class="--pink">экономят свое время и бюджет</span></h3>
-        </div>
-    </section>
+<?$APPLICATION->IncludeComponent(
+    "bitrix:main.include",
+    "",
+    Array(
+        "AREA_FILE_SHOW" => "file",
+        "AREA_FILE_SUFFIX" => "inc",
+        "EDIT_TEMPLATE" => "",
+        "CLASS_TABS_FLEX" => "g-flex-align-center center ",
+        "DONT_SHOW_BIG_TITLE" => "Y",
+        "DONT_SHOW_SLIDER_TITLE" => "Y",
+        "PATH" => "/include/ipoteka-ref/options.php"
+    )
+);?>
 
-    <section class="section">
-        <div class="wrapper">
-            <h3 class="--text-center --mgb60">Из <span class="--pink">кодекса чести</span> суперброкеров Dream Realty:
-            </h3>
-            <div class="section__codex g-flex-between g-flex-align-stretch">
-                <div class="section__codex_item g-flex-align-center g-flex-justify-center">
-                    <p>
-                        Мы не берем процент от суммы кредита - <span class="--pink">стоимость услуги фиксирована и равна 100 000 рублей.</span>
-                    </p>
-                </div>
-                <div class="section__codex_item g-flex-align-center g-flex-justify-center">
-                    <p>
-                        Мы не берем предоплату — <span class="--pink">оплата по факту одобрения ипотеки.</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+<?$APPLICATION->IncludeComponent(
+    "bitrix:main.include",
+    "",
+    Array(
+        "AREA_FILE_SHOW" => "file",
+        "AREA_FILE_SUFFIX" => "inc",
+        "EDIT_TEMPLATE" => "",
+        "CLASS_TABS_FLEX" => "g-flex-align-center center ",
+        "DONT_SHOW_BIG_TITLE" => "Y",
+        "DONT_SHOW_SLIDER_TITLE" => "Y",
+        "PATH" => "/include/ipoteka-ref/honor.php"
+    )
+);?>
 
     <?
     $idvideo = $APPLICATION->GetProperty("idvideo");

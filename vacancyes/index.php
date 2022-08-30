@@ -12,76 +12,65 @@ $APPLICATION->SetTitle("ВАКАНСИИ");
         </div>
     </section>
 
-    <section class="section --pdb0" id="list">
-        <div class="wrapper">
-            <div class="section__text-slider --mgt0-xs" style="margin-bottom: 90px;">
-                <div class="section__text-slider_img">
-                    <img loading="lazy" src="/html/assets/img/advant-full20.png" alt="">
-                </div>
-                <div class="section__text-slider_slider">
-                    <div class="slider">
-                        <div class="section__text-slider_slide">
-                            <div class="num" style="top: 0px;">01</div>
-                            <h3>Для начала реши:</h3>
-                            <ul>
-                                <li>любишь ли людей?</li>
-                                <li>умеешь ли продавать?</li>
-                                <li>интересен ли тебе рынок недвижимости?</li>
-                                <li>разделяешь ли ты наши взгляды на бизнес?</li>
-                                <li>сможешь ли отказаться от стабильности ради роста?</li>
-                                <li>сможешь ли постоянно учиться и развиваться?</li>
-                            </ul>
-                        </div>
-                        <div class="section__text-slider_slide">
-                            <div class="num" style="top: 0px;">02</div>
-                            <h3>Если ДА, мы ждем тебя!</h3>
-                            <p>Присылай резюме с сопроводительным письмом, записывай видеообращение. Мы проверим,
-                                сможешь ли ты стать суперагентом.</p>
-                        </div>
-                        <div class="section__text-slider_slide">
-                            <div class="num" style="top: 0px;">03</div>
-                            <h3>Шансы возрастут, если у тебя есть</h3>
-                            <ul>
-                                <li>высшее образование;</li>
-                                <li>успешный опыт в продажах и min-маркететинге;</li>
-                                <li>опыт закрытия собственной сделки в недвижимости.</li>
-                            </ul>
-                        </div>
-                        <div class="section__text-slider_slide">
-                            <div class="num" style="top: 0px;">04</div>
-                            <h3>И да, будь уверен, тебе понравится</h3>
-                            <ul>
-                                <li>наш крутецкий офис в центре,</li>
-                                <li>вдохновляющая атмосфера в коллективе,</li>
-                                <li>система мотивации и целеполагания,</li>
-                                <li>технологичность и продуманность,</li>
-                                <li>гибкий график и работа на результат,</li>
-                                <li>уровень доходов, который можешь ограничить только ты.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="navs">
-                        <a href="#summary" class="btn --orange js--transparent_pop-up">Отправить резюме</a>
-                        <div class="g-flex-justify-end g-flex-align-stretch slider-navs">
-                            <button class="js-prev">
-                                <svg class="icon">
-                                    <use xlink:href="#ArrowSquare"></use>
-                                </svg>
-                            </button>
-                            <button class="js-next">
-                                <svg class="icon">
-                                    <use xlink:href="#ArrowSquare"></use>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="formBlock" id="formBlock" style="display: none">
-                <?include($_SERVER['DOCUMENT_ROOT'].'/local/forms/send-resume.php');?>
-            </div>
-        </div>
-    </section>
+    <?
+$APPLICATION->IncludeComponent(
+    "bitrix:news.list",
+    "vacancies",
+    Array(
+        "ACTIVE_DATE_FORMAT" => "d.m.Y",
+        "ADD_SECTIONS_CHAIN" => "N",
+        "AJAX_MODE" => "N",
+        "AJAX_OPTION_ADDITIONAL" => "",
+        "AJAX_OPTION_HISTORY" => "N",
+        "AJAX_OPTION_JUMP" => "N",
+        "AJAX_OPTION_STYLE" => "Y",
+        "CACHE_FILTER" => "N",
+        "CACHE_GROUPS" => "Y",
+        "CACHE_TIME" => "36000000",
+        "CACHE_TYPE" => "A",
+        "CHECK_DATES" => "Y",
+        "DETAIL_URL" => "",
+        "DISPLAY_BOTTOM_PAGER" => "Y",
+        "DISPLAY_DATE" => "Y",
+        "DISPLAY_NAME" => "Y",
+        "DISPLAY_PICTURE" => "Y",
+        "DISPLAY_PREVIEW_TEXT" => "Y",
+        "DISPLAY_TOP_PAGER" => "N",
+        "FIELD_CODE" => array("", ""),
+        "FILTER_NAME" => "arrWorkers",
+        "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+        "IBLOCK_ID" => "8",
+        "IBLOCK_TYPE" => "team",
+        "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+        "INCLUDE_SUBSECTIONS" => "Y",
+        "SECTION_ID" =>  6,
+        "MESSAGE_404" => "",
+        "NEWS_COUNT" => "60",
+        "PAGER_BASE_LINK_ENABLE" => "N",
+        "PAGER_DESC_NUMBERING" => "N",
+        "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+        "PAGER_SHOW_ALL" => "N",
+        "PAGER_SHOW_ALWAYS" => "N",
+        "PAGER_TEMPLATE" => ".default",
+        "PAGER_TITLE" => "Новости",
+        "PARENT_SECTION" => "",
+        "PARENT_SECTION_CODE" => "",
+        "PREVIEW_TRUNCATE_LEN" => "",
+        "PROPERTY_CODE" => array(
+            0 => "NAME",
+            1 => "SURNAME",
+            2 => "",
+        ),
+        "SET_BROWSER_TITLE" => "N",
+        "SET_LAST_MODIFIED" => "N",
+        "SET_META_DESCRIPTION" => "N",
+        "SET_META_KEYWORDS" => "N",
+        "SET_STATUS_404" => "N",
+        "SET_TITLE" => "N",
+        "SHOW_404" => "N",
+        "STRICT_SECTION_CHECK" => "N"
+    )
+);?>
 
 <?
 $idvideo = $APPLICATION->GetProperty("idvideo");
