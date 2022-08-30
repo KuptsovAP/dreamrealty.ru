@@ -1,0 +1,5 @@
+в файле /bitrix/panel/main/admin-public.css
+нужно добавить
+
+table.adm-main-wrap .adm-workarea > .adm-info-message-wrap > .adm-info-message,
+table.adm-main-wrap .adm-workarea #adm-title + .adm-info-message-wrap > .adm-info-message { display: none !important; }

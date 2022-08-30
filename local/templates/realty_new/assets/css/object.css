@@ -1,0 +1,49 @@
+.btn-content span:first-child{
+display: block;
+color: currentColor;
+}
+
+.btn-content span:last-child{
+display: none;
+color: currentColor;
+}
+
+.btn-content:hover span:first-child{
+display: none;
+color: currentColor;
+}
+
+.btn-content:hover span:last-child{
+display: block;
+color: currentColor;
+}
+
+.--key {
+    background-image: url(../img/formKey.svg);
+    background-repeat: no-repeat;
+    background-size: 60% !important;
+    background-position: center center !important;
+}
+
+.select2-search .select2-dropdown{
+    background: white;
+    border-top: 0 !important;
+}
+
+.select2-search .select2-dropdown{
+    background: white;
+    border-top: 0 !important;
+}
+
+.select2-container--default .select2-results__group {
+    padding: 6px !important;
+    margin-top: -12px;
+    padding-left: 15px !important;
+}
+
+#obespet-platezh__formTopExpert,
+#obespet-platezh__formExpert{
+    min-width: unset !important;
+    max-width: 700px !important;
+    background: transparent !important;
+}

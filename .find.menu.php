@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"компания", 
+		"/about/",
+		Array(), 
+		Array("color"=>"lightViolet"), 
+		"" 
+	),
+	Array(
+		"команда", 
+		"/team/",
+		Array(), 
+		Array("color"=>"lightViolet"), 
+		"" 
+	),
+	Array(
+		"вакансии", 
+		"/vacancyes/",
+		Array(), 
+		Array("color"=>"orange"), 
+		"" 
+	),
+	Array(
+		"партнерка", 
+		"/partners/",
+		Array(), 
+		Array("color"=>"orange"), 
+		"" 
+	)
+);
+?>

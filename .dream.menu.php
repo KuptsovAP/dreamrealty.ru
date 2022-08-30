@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"купить", 
+		"/buy/",
+		Array(), 
+		Array("color"=>"green"), 
+		"" 
+	),
+	Array(
+		"продать", 
+		"/sell/",
+		Array(), 
+		Array("color"=>"red"), 
+		"" 
+	),
+	Array(
+		"обмен квартиры", 
+		"/alternative/",
+		Array(), 
+		Array("color"=>"darkViolet"), 
+		"" 
+	),
+	Array(
+		"сдать", 
+		"/rentTo/",
+		Array(), 
+		Array("color"=>"lightBlue"), 
+		"" 
+	),
+	Array(
+		"снять", 
+		"/rent/",
+		Array(), 
+		Array("color"=>"lightBlue"), 
+		"" 
+	),
+	Array(
+		"юр.сопровождение", 
+		"/ursoprovozhd/",
+		Array(), 
+		Array("color"=>"blue"), 
+		"" 
+	),
+	Array(
+		"ипотека", 
+		"/ipoteka/",
+		Array(), 
+		Array("color"=>"pink"), 
+		"" 
+	),
+	Array(
+		"рефинансирование", 
+		"/ipoteka-refinance/",
+		Array(), 
+		Array("color"=>"pink"), 
+		"" 
+	)
+);
+?>

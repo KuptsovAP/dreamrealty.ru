@@ -1,0 +1,131 @@
+.advantages-pop-up .content {
+    padding: 100px 53px !important;
+}
+
+.advantages-pop-up .section.pop-up__header {
+    padding: 0px !important;
+}
+
+@media (max-width: 779px) {
+    .advantages-pop-up .section.pop-up__header {
+        margin-left: 0px !important;
+    }
+}
+
+.advantages-pop-up .section.pop-up__header h3.title {
+    padding: 0 53px 19px 53px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.advantages-pop-up .section.pop-up__header h3.title span {
+    padding: 0 10px;
+}
+
+@media (max-width: 779px) {
+    .advantages-pop-up .section.pop-up__header h3.title {
+        display: block;
+    }
+    .advantages-pop-up .section.pop-up__header h3.title span {
+        padding: 0;
+    }
+}
+
+.advantages-pop-up .section.pop-up__header .pop-up__header_bottom {
+    padding: 0 17px;
+}
+
+.advantages-pop-up .pop-up__header {
+    padding: 0px !important;
+    margin-left: -52px !important;
+    width: calc(100% + 104px);
+}
+
+.advantages-pop-up .pop-up__header .pop-up__header_gray.differences {
+    padding-bottom: 218px;
+}
+
+.advantages-pop-up .section.differences {
+    margin-top: -142px;
+    z-index: 10;
+    position: relative;
+}
+
+.fs-115,
+.fs-115 p {
+    font-size: 115px !important;
+}
+
+@media (max-width: 779px) {
+    .fs-115,
+    .fs-115 p {
+        font-size: 60px !important;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 949px) {
+    .fs-115,
+    .fs-115 p {
+        font-size: 80px !important;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1075px) {
+    .fs-115,
+    .fs-115 p {
+        font-size: 100px !important;
+    }
+}
+
+ul.gray-disc li::before {
+    background: #c4c4c4 !important;
+}
+
+ul.red-disc li::before {
+    background: #D9112F !important;
+}
+
+ul.green-disc li::before {
+    background: #005453 !important;
+}
+
+.grayHalfBG::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background: #F4F4F4;
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.advantages-page::before {
+    height: calc(100% - 220px);
+}
+
+.section__peoples .section__people {
+    text-decoration: none;
+    width: calc(25% - 25px);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+@media (min-width: 1200px) {
+    .section__big-text.for-pop-up p {
+        font-size: 70px;
+    }
+    .advantages-pop-up .content {
+        padding: 100px 53px 0px 53px !important;
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/mobile.sass",
+        "../sass/_config.sass"
+    ],
+    "names": [],
+    "file": "mobile.css"
+}

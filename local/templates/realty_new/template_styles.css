@@ -1,0 +1,424 @@
+.section__content__subtitle {
+    display: none;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.section__question__title p {
+    font-size: 132px !important;
+}
+
+.section__content__subtitle.active {
+    display: block;
+}
+
+.section__question__title:hover p {
+    color: #194FB9 !important;
+}
+
+.exception__rule__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+.exception__rule__li {
+    font-size: 18px;
+    line-height: 24px;
+    list-style: none;
+    padding: 7px 0;
+}
+
+.cta-big-text.section_has_question_block:hover p {
+    color: #194FB9 !important;
+}
+
+.show__on__tablet {
+    display: none;
+}
+
+.section_has_question_block .section__big-text.section__question__title:hover p {
+    color: #194FB9 !important;
+}
+
+.section__content-changer .section__content-slider .section__content-slide {
+    min-height: auto !important;
+    height: auto !important;
+}
+
+.tablebodytext {
+    display:none !important;
+}
+
+#white__block {
+    z-index: 99 !important;
+}
+
+/*Добавили, чтобы в попапе, инпут Сфера деятельности не выходило за рамки*/
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    display:block;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered .select2-selection__placeholder {
+    display: block;
+    margin-top: 15px;
+}
+
+/*Добавили, так как была проблема в блоке FAQ. Слайдер мешал остальным блокам*/
+.section__question_content {
+    position: relative;
+}
+
+.dream_media_section .section__peoples .section__people{
+    margin-right: 0;
+}
+
+/*.advantages-pop-up {
+    border-radius: 50px;
+    overflow: hidden !important;
+    padding: 0 !important;
+    max-height: calc(100vh - 80px) !important;
+    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
+    margin: 0;
+    margin-top: 40px !important;
+    padding: 0 !important;
+    z-index: 101 !important;
+}*/
+
+.advantages-pop-up {
+    z-index: 101 !important;
+}
+
+.transparent_pop-up {
+    z-index: 101 !important;
+}
+
+/*.advantages-pop-up.--pdb90 {
+    padding: 0 !important;
+    padding-bottom: 0 !important;
+}*/
+
+/*
+.pop-up .content.wrapper {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+*/
+
+.advantages-pop-up .pop-up__header .pop-up__header_gray .pop-up__header_top .pop-up__header_img {
+    max-height: 500px !important;
+}
+
+.advantages-pop-up .pop-up__header .pop-up__header_gray .pop-up__header_top .pop-up__header_img img {
+    max-height: 100% !important;
+    height: auto !important;
+    width: auto !important;
+    max-width: 100% !important;
+}
+
+.modal-test .advantages-pop-up:not(.section)>.wrapper, .modal-test .advantages-pop-up:not(.section)>.section {
+    border-radius: 50px !important;
+    padding-bottom: 40px !important;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.modal-test .advantages-pop-up:not(.section) {
+
+}
+
+.select2-results__options::-webkit-scrollbar-thumb, .pop-up .content.wrapper::-webkit-scrollbar-thumb {
+    background-color: #194FB9;
+    border-radius: 10px;
+    outline: none;
+}
+
+.select2-results__options::-webkit-scrollbar-track, .pop-up .content.wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.select2-results__options::-webkit-scrollbar, .pop-up .content.wrapper::-webkit-scrollbar {
+    width: 5px;
+    position: relative;
+}
+
+@media (max-width: 1200px) {
+    .section__question__title p {
+        font-size: 95px;
+    }
+}
+
+@media (max-width: 991px) {
+    .section__question__title p {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 796px) {
+    .show__on__tablet {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .section__question__title p {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section__content__subtitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .exception__rule__li {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 5px 0;
+    }
+
+    .exception__rule__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .section__question__title p {
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    nav .wrapper, nav .container {
+        z-index: 100 !important;
+    }
+}
+
+
+#feedbackSlider .slick-list {
+    height: auto !important;
+}
+
+.feedback {
+    overflow: hidden !important;
+}
+
+#white__block {
+    height: 120vh !important;
+}
+
+.video-pop-up {
+    z-index: 101 !important;
+}
+
+.video-pop-up iframe.js_video-ratio{
+    min-height: 450px;
+}
+
+
+/*Добавили, чтобы убрать отступ между выпадающим списком и селектором*/
+.header__forms {
+    z-index: 1100 !important;
+}
+
+.select2-container--open .select2-dropdown--below {
+    padding-top: 25px;
+}
+
+.num {
+    text-shadow: 3px 2px 25px rgb(188 188 188 / 84%);
+}
+
+.zindex110 {
+    z-index: 110;
+}
+
+.advantages-pop-up.pop-up:not(.old-popup-style) {
+    overflow-y: hidden !important;
+    background: white;
+    border-radius: 50px 50px 50px 50px;
+    padding: 50px 20px 0 20px;
+    max-height: calc(100vh - 35px);
+    margin-top: 20px !important;
+}
+
+.pop-up__header {
+    padding-top: 10px !important;
+}
+
+.pop-up-container-wrap {
+    background: white;
+    margin: 0px 0;
+    padding-bottom: 40px;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.pop-up-container-wrap::-webkit-scrollbar-track {
+    box-shadow: none;
+}
+
+.pop-up-container-wrap::-webkit-scrollbar {
+    width: 5px;
+    position: relative;
+}
+
+.pop-up-container-wrap::-webkit-scrollbar-thumb {
+    background-color: #005453;
+    border-radius: 10px;
+    outline: none;
+    -webkit-box-shadow: none;
+}
+
+.advantages-pop-up.pop-up.old-popup-style .content {
+    padding-top: 20px;
+}
+
+@media (max-width: 1100px) {
+    .advantages-pop-up.pop-up:not(.old-popup-style)  {
+        padding-left: 0;
+        padding-right: 0;
+
+        border-radius: 50px 50px 0px 0px;
+        max-height: calc(100vh - 20px);
+    }
+
+    .pop-up-container-wrap {
+        position: relative;
+    }
+
+    .advantages-pop-up.pop-up:not(.old-popup-style)  .pop-up__close {
+        position: absolute;
+        top: 0px;
+        right: 15px;
+        cursor: pointer;
+    }
+
+    .section__big-text p {
+        font-size: 40px !important;
+    }
+}
+
+@media (min-width: 1100px) {
+    .section__big-text p {
+        font-size: 70px !important;
+        color: #e6e6e6;
+    }
+}
+
+.how-it-works {
+    margin-bottom: 25px;
+}
+
+.section__feedback-slider .section__feedback-slide .section__feedback-col .section__feedback-block.share.--darkViolet {
+    background: #5D2352 !important;
+}
+
+/*Правки страницы Юр.Сопровождение - ИСТОРИЯ*/
+@media (min-width: 0px) and (max-width: 991px) {
+    .section__histories .section__history .img {
+        position: relative;
+    }
+
+    .section__histories .section__history:nth-child(even), .section__histories .section__history {
+        padding: 15px;
+    }
+
+    .section__histories .section__history .desc {
+        width: 100%;
+    }
+}
+/*Правки страницы Юр.Сопровождение - ИСТОРИЯ*/
+
+@media (max-width: 768px) {
+    .section__advantages--full {
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+}
+
+.pop-up__header_text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pop-up__header_bottom {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav .wrapper .nav-content, nav .container .nav-content {
+    z-index: 2000  !important;
+}
+
+@media (min-width: 0px) and (max-width: 991px) {
+    .section__histories .section__history .desc {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+
+.zo_section__edge-button {
+    margin-left: -20px !important;
+}
+
+@media (max-width: 768px) {
+    .zo_section__edge-button {
+        visibility: visible !important;
+        animation-name: fadeInLeft !important;
+        margin-bottom: 30px !important;
+    }
+
+    .section__content-changer .section__content-slider .section__content-slide form {
+        padding: 10px;
+    }
+}
+
+/**/
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+    height: auto !important;
+}
+
+.advantages-pop-up {
+    z-index: 99999 !important;
+}
+
+.margin-lr-0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+@media (min-width: 991px) {
+    .section__peoples {
+        justify-content: flex-start;
+    }
+
+    .section__peoples .section__people {
+        justify-content: flex-start !important;
+        margin-right:33px;
+    }
+
+    .section__peoples .section__people:nth-child(4n) {
+        margin-right:0px !important;
+    }
+}
+
+.section__feedback-slider .section__feedback-slide .section__feedback-col .section__feedback-block.share.--orange {
+    background: #DD7E3C;
+}
