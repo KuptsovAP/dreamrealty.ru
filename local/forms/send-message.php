@@ -15,6 +15,6 @@
     <label class="inputCheckbox">
         <button type="submit" class="btn --mgb20 --<? $APPLICATION->ShowProperty("color") ?>">Отправить сообщение</button>
         <input type="checkbox" required checked>
-        <span>Нажимая на кнопку "Отправить сообщение", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+        <span>Нажимая на кнопку "Отправить сообщение", вы даете согласие на обработку персональных данных</span>
     </label>
 </form>

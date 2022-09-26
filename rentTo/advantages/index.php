@@ -403,7 +403,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                                         </label>
                                         <label class="inputCheckbox">
                                             <input type="checkbox" required checked>
-                                            <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                            <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                                         </label>
                                     </form>
                                 </div>
@@ -597,7 +597,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                                         </label>
                                         <label class="inputCheckbox">
                                             <input type="checkbox" required checked>
-                                            <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                            <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                                         </label>
                                     </form>
                                 </div>
@@ -910,7 +910,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                                         </label>
                                         <label class="inputCheckbox">
                                             <input type="checkbox" required checked>
-                                            <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                            <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                                         </label>
                                     </form>
                                 </div>
@@ -1104,7 +1104,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                                         </label>
                                         <label class="inputCheckbox">
                                             <input type="checkbox" required checked>
-                                            <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                            <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                                         </label>
                                     </form>
                                 </div>
@@ -1231,7 +1231,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -1517,7 +1517,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -1803,7 +1803,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -2122,7 +2122,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -2316,7 +2316,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -2522,7 +2522,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                 </label>
                 <label class="inputCheckbox">
                     <input type="checkbox" required checked>
-                    <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                    <span>Нажимая на кнопку "Заказать консультацию", вы даете согласие на обработку персональных данных</span>
                 </label>
             </form>
         </div>
@@ -2726,7 +2726,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                     </label>
                     <label class="inputCheckbox">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                        <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                     </label>
                 </form>
             </div>
@@ -2980,7 +2980,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Заказать оценку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Заказать оценку", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -3215,7 +3215,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Заказать звонок", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Заказать звонок", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -3283,7 +3283,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             <button type="submit" class="btn --lightBlue">Скачать</button>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Скачать", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Скачать", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -3348,7 +3348,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Заказать консультацию", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -3591,7 +3591,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА АРЕНДЫ С НАМИ");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Заказать звонок", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Заказать звонок", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>

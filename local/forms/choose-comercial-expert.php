@@ -27,7 +27,7 @@
     </label>
     <label class="inputCheckbox">
         <input type="checkbox" required checked>
-        <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+        <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
     </label>
     <label class="w66 w100-xs">
         <input type="text" placeholder="Комментарии">

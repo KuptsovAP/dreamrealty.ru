@@ -31,7 +31,7 @@
     </label>
     <label class="inputCheckbox w66">
         <input type="checkbox" required checked>
-        <span>Нажимая на кнопку "Отправить", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+        <span>Нажимая на кнопку "Отправить", вы даете согласие на обработку персональных данных</span>
     </label>
     <button type="submit" class="btn --<? $APPLICATION->ShowProperty("color") ?>">Отправить</button>
 </form>

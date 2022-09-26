@@ -207,7 +207,7 @@ $APPLICATION->SetTitle("ПОДКАСТЫ");
                     <button type="submit" class="btn --violet">Задать вопрос</button>
                     <label class="inputCheckbox w100">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Задать вопрос", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                        <span>Нажимая на кнопку "Задать вопрос", вы даете согласие на обработку персональных данных</span>
                     </label>
                 </form>
             </div>

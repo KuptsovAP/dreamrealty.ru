@@ -20,6 +20,6 @@
     </label>
     <label class="inputCheckbox">
         <input type="checkbox" required checked>
-        <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+        <span>Нажимая на кнопку "Заказать консультацию", вы даете согласие на обработку персональных данных</span>
     </label>
 </form>
