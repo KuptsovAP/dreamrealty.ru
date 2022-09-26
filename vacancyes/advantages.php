@@ -182,7 +182,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                                 <label class="inputCheckbox">
                                     <button type="submit" class="btn --mgb20 --lightViolet">Отправить сообщение</button>
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Отправить сообщение", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Отправить сообщение", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>
@@ -494,7 +494,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Отправить заявку", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>
@@ -623,7 +623,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Отправить заявку", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>
@@ -926,7 +926,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Отправить заявку", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>
@@ -1049,7 +1049,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Отправить заявку", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>
@@ -1335,7 +1335,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Заказать звонок", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Заказать звонок", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>
@@ -1621,7 +1621,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Заказать звонок", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Заказать звонок", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>
@@ -1907,7 +1907,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Заказать звонок", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Заказать звонок", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>
@@ -1955,7 +1955,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                     </label>
                     <label class="inputCheckbox w100-xs">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Заказать звонок", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                        <span>Нажимая на кнопку "Заказать звонок", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                     </label>
                 </form>
             </div>
@@ -1998,7 +1998,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                     </label>
                     <label class="inputCheckbox w66">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Отправить", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                        <span>Нажимая на кнопку "Отправить", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                     </label>
                     <button type="submit" class="btn --orange">Отправить</button>
                 </form>
@@ -2068,7 +2068,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                             </label>
                             <label class="inputCheckbox w66">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Отправить", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Отправить", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                             </label>
                             <button type="submit" class="btn --orange">Отправить</button>
                         </form>
@@ -2140,7 +2140,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                             </label>
                             <label class="inputCheckbox w66">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Отправить", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Отправить", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                             </label>
                             <button type="submit" class="btn --orange">Отправить</button>
                         </form>
@@ -2213,7 +2213,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                             </label>
                             <label class="inputCheckbox w66">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Отправить", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Отправить", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                             </label>
                             <button type="submit" class="btn --orange">Отправить</button>
                         </form>
@@ -2286,7 +2286,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                             </label>
                             <label class="inputCheckbox w66">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Отправить", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Отправить", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                             </label>
                             <button type="submit" class="btn --orange">Отправить</button>
                         </form>
@@ -2333,7 +2333,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА РАБОТЫ У НАС");
                     </label>
                     <label class="inputCheckbox w66">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Отправить", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                        <span>Нажимая на кнопку "Отправить", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                     </label>
                     <button type="submit" class="btn --orange">Отправить</button>
                 </form>

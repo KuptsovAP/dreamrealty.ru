@@ -77,7 +77,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА");
                 </label>
                 <label class="inputCheckbox">
                     <input type="checkbox" required checked>
-                    <span>Нажимая на кнопку "Отправить заявку", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                    <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                 </label>
             </form>
         </div>
@@ -122,7 +122,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА");
                     </label>
                     <label class="inputCheckbox w100">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Заказать звонок", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                        <span>Нажимая на кнопку "Заказать звонок", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                     </label>
                 </form>
             </div>
@@ -162,7 +162,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА");
                     </label>
                     <label class="inputCheckbox">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Заказать консультацию", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                        <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                     </label>
                 </form>
             </div>
@@ -202,7 +202,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА");
                     </label>
                     <label class="inputCheckbox">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Отправить заявку", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                        <span>Нажимая на кнопку "Отправить заявку", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                     </label>
                 </form>
             </div>
@@ -270,7 +270,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Заказать консультацию", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                             </label>
                         </form>
                     </div>
@@ -336,7 +336,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Заказать консультацию", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                             </label>
                         </form>
                     </div>
@@ -401,7 +401,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Заказать консультацию", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                             </label>
                         </form>
                     </div>
@@ -466,7 +466,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА");
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Заказать консультацию", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                             </label>
                         </form>
                     </div>

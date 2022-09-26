@@ -207,7 +207,7 @@
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Заказать консультацию", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>
@@ -241,7 +241,7 @@
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Заказать консультацию", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                                 <label class="w66 w100-xs">
                                     <input type="text" placeholder="Комментарии" name="UF_COMMENT">
@@ -444,7 +444,7 @@
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Заказать консультацию", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                                 <label class="w66 w100-xs" >
                                     <input type="text" placeholder="Комментарии" name="UF_COMMENT">
@@ -512,7 +512,7 @@
                                 </label>
                                 <label class="inputCheckbox">
                                     <input type="checkbox" required checked>
-                                    <span>Нажимая на кнопку "Заказать консультацию", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
+                                    <span>Нажимая на кнопку "Заказать консультацию", <a target="_blank" href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                                 </label>
                             </form>
                         </div>

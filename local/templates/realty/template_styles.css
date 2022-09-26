@@ -420,3 +420,8 @@ form label textarea::placeholder, form label input::placeholder {
     margin-top: 170px;
     padding-bottom: 45px;
 }
+
+.inputCheckbox span a {
+    text-decoration: underline;
+    display: contents;
+}

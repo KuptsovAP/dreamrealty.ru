@@ -470,3 +470,8 @@ form label textarea::placeholder, form label input::placeholder {
     border-bottom-left-radius: 0!important;
     border-bottom-right-radius: 0!important;
 }
+
+.inputCheckbox span a {
+    text-decoration: underline;
+    display: contents;
+}
