@@ -77,9 +77,9 @@
     position: relative;
 }
 
-.dream_media_section .section__peoples .section__people{
+/*.dream_media_section .section__peoples .section__people{
     margin-right: 0;
-}
+}*/
 
 /*.advantages-pop-up {
     border-radius: 50px;
@@ -380,7 +380,7 @@ nav .wrapper .nav-content, nav .container .nav-content {
 }
 
 .advantages-pop-up {
-    z-index: 99999 !important;
+    z-index: 9999 !important;
 }
 
 .transparent_pop-up ::placeholder, .transparent_pop-up .select2-selection__rendered {
@@ -422,6 +422,33 @@ form label textarea::placeholder, form label input::placeholder {
 }
 
 .inputCheckbox span a {
-    text-decoration: underline;
+    font-weight: bold;
     display: contents;
+}
+
+.transparent_pop-up.obespet-platezh__form20k .wrapper h3, .transparent_pop-up.obespet-platezh__form30k .wrapper h3 {
+    margin-bottom: 15px;
+}
+
+.transparent_pop-up.obespet-platezh__form20k .wrapper>p, .transparent_pop-up.obespet-platezh__form30k .wrapper>p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.video-pop-up {
+    z-index: 11000 !important;
+    height: calc(100vh - 35px);
+    max-width: 1102px !important;
+    width: 100% !important;
+    left: 50% !important;
+    background: white;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.video-pop-up .wrapper .block {
+    max-width: 100% !important;
+}
+
+.section__peoples .section__people {
+    margin-bottom: 33px;
 }

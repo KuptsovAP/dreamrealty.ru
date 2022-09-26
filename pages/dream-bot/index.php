@@ -51,7 +51,7 @@ $APPLICATION->SetTitle("DREAM AGENT BOT");
     <section class="section feedbacks --mgb60">
         <div class="wrapper">
             <div class="section__big-text --mgb60">
-                <p>Репутация <br>и суперсила</p>
+                <p>Репутация и суперсила</p>
             </div>
             <h2 class="section__title --mgb40"><span class="--violet">Отзывы</span> о dream-bot</h2>
             <div class="section__feedback-slider slider">

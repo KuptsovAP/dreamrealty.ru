@@ -148,7 +148,7 @@
     <section class="section feedbacks">
         <div class="wrapper">
             <div class="section__big-text --mgb40">
-                <p>Репутация <br>и суперсила</p>
+                <p>Репутация и суперсила</p>
             </div>
             <h2 class="section__title --mgb40"><span class="--<? $APPLICATION->ShowProperty("color") ?>">Отзывы</span> клиентов</h2>
             <div class="section__feedback-slider slider">
@@ -2113,7 +2113,7 @@
                         </svg>
                         <div class="info">
                             <div class='title'>Новостройки</div>
-                            <p>Посмотреть похожие варианты в новостройках этого округа</p>
+                            <p>Посмотреть схожие варианты в новостройках той же локации</p>
                         </div>
                     </div>
                     <div class="section_product_footer">
@@ -2877,7 +2877,7 @@
                         </svg>
                         <div class="info">
                             <div class='title'>Коммерческая недвижимость</div>
-                            <p>Посмотреть похожие варианты в новостройках этого округа</p>
+                            <p>Посмотреть схожие варианты в новостройках той же локации</p>
                         </div>
                     </div>
                     <div class="section_product_footer">
@@ -3294,7 +3294,7 @@
                             </svg>
                             <div class="info">
                                 <div class='title'>Новостройки</div>
-                                <p>Посмотреть похожие варианты в новостройках этого округа</p>
+                                <p>Посмотреть схожие варианты в новостройках той же локации</p>
                             </div>
                         </div>
                         <div class="section_product_footer">
@@ -3711,7 +3711,7 @@
                             </svg>
                             <div class="info">
                                 <div class='title'>Новостройки</div>
-                                <p>Посмотреть похожие варианты в новостройках этого округа</p>
+                                <p>Посмотреть схожие варианты в новостройках той же локации</p>
                             </div>
                         </div>
                         <div class="section_product_footer">

@@ -73,7 +73,7 @@ $APPLICATION->SetTitle("ПОДКАСТЫ");
         <section class="section how-it-works dream_media_section">
             <div class="wrapper">
                 <div class="section__big-text --mgb60">
-                    <p>Команда</p>
+                    <p>Команда спикеров</p>
                 </div>
                 <div class="section__peoples g-flex-wrap g-flex-between g-flex-align-start">
                     <?

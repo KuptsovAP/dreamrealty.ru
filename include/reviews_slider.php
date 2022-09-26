@@ -21,7 +21,7 @@ while ($el = $rsData->fetch()) {
     <section class="section feedbacks">
         <div class="wrapper">
             <div class="section__big-text --mgb40">
-                <p>Репутация <br>и суперсила</p>
+                <p>Репутация и суперсила</p>
             </div>
             <h2 class="section__title --mgb40"><span class="--<? $APPLICATION->ShowProperty("color") ?>">
                         Отзывы</span> клиентов

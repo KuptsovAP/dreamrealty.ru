@@ -133,7 +133,7 @@ $APPLICATION->SetTitle("ТАРИФЫ");
                         <br>где риск считается оправданным!</b></p>
             </div>
             <div class="section__big-text --mgb60">
-                <p>СКИДКИ <br>И БОНУСЫ</p>
+                <p>СКИДКИ И БОНУСЫ</p>
             </div>
         </div>
     </section>

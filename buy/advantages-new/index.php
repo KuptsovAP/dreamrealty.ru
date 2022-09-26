@@ -661,7 +661,7 @@ $APPLICATION->IncludeComponent(
             <h3>Оставить заявку</h3>
             <p class="--big">Комплексная работа. Обеспечительный платеж 20 000 р.</p>
             <form>
-                <p class="--mgb40 --mgt40">Пожалуйста, заполните все поля ниже</p>
+                <p class="--mgb20 --mgt20">Пожалуйста, заполните все поля ниже</p>
                 <label>
                     <input type="text" placeholder="Имя*" required>
                 </label>
@@ -734,7 +734,7 @@ $APPLICATION->IncludeComponent(
                 <h3>Оставить заявку</h3>
                 <p class="--big">Комплексная работа. Обеспечительный платеж 30 000 р.</p>
                 <form>
-                    <p class="--mgb40 --mgt40">Пожалуйста, заполните все поля ниже</p>
+                    <p class="--mgb20 --mgt20">Пожалуйста, заполните все поля ниже</p>
                     <label>
                         <input type="text" placeholder="Имя*" required>
                     </label>
@@ -807,7 +807,7 @@ $APPLICATION->IncludeComponent(
             <h3>Оставить заявку</h3>
             <p class="--big">Комплексная работа. Обеспечительный платеж 20 000 р.</p>
             <form>
-                <p class="--mgb40 --mgt40">Пожалуйста, заполните все поля ниже</p>
+                <p class="--mgb20 --mgt20">Пожалуйста, заполните все поля ниже</p>
                 <label>
                     <input type="text" placeholder="Имя*" required>
                 </label>
@@ -878,7 +878,7 @@ $APPLICATION->IncludeComponent(
             <h3>Оставить заявку</h3>
             <p class="--big">Комплексная работа. Обеспечительный платеж 30 000 р.</p>
             <form>
-                <p class="--mgb40 --mgt40">Пожалуйста, заполните все поля ниже</p>
+                <p class="--mgb20 --mgt20">Пожалуйста, заполните все поля ниже</p>
                 <label>
                     <input type="text" placeholder="Имя*" required>
                 </label>
@@ -949,7 +949,7 @@ $APPLICATION->IncludeComponent(
             <h3>Оставить заявку</h3>
             <p class="--big">Консультация on-line. 100% предоплата 15 000 р.</p>
             <form>
-                <p class="--mgb40 --mgt40">Пожалуйста, заполните все поля ниже</p>
+                <p class="--mgb20 --mgt20">Пожалуйста, заполните все поля ниже</p>
                 <label>
                     <input type="text" placeholder="Имя*" required>
                 </label>
@@ -1021,7 +1021,7 @@ $APPLICATION->IncludeComponent(
             <h3>Оставить заявку</h3>
             <p class="--big">Консультация on-line. 100% предоплата 20 000 р.</p>
             <form>
-                <p class="--mgb40 --mgt40">Пожалуйста, заполните все поля ниже</p>
+                <p class="--mgb20 --mgt20">Пожалуйста, заполните все поля ниже</p>
                 <label>
                     <input type="text" placeholder="Имя*" required>
                 </label>

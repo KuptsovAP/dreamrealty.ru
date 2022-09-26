@@ -62,7 +62,7 @@ $(document).ready(function() {
     $(document).on('click', '.section__video-slider .section__video-slide, .section__advantage-pop-up_video', function() {
         var that = $(this),
             videoURL = that.data('video'),
-            block = `<div class="video-pop-up openned">
+            block = `<div class="advantages-pop-up pop-up openned">
                         <div class="wrapper">
                             <div class="block">
                                 <svg class="icon">
