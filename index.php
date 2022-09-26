@@ -4,13 +4,18 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
 ?>
 <svg width="0" height="0" class="hidden" style="display: none;">
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" id="PhoneCall">
-        <path d="M18 5C19.4381 5.38676 20.7493 6.14461 21.8024 7.19764C22.8554 8.25067 23.6132 9.5619 24 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        <path d="M17 8C17.9587 8.25784 18.8329 8.76308 19.5349 9.46509C20.2369 10.1671 20.7422 11.0413 21 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        <path d="M10.9997 14.5747C11.9484 16.5144 13.5207 18.0795 15.4647 19.0195C15.6069 19.0869 15.7643 19.1161 15.9212 19.1042C16.0781 19.0923 16.2293 19.0398 16.3598 18.9517L19.2221 17.0431C19.3487 16.9586 19.4944 16.9071 19.6459 16.8932C19.7974 16.8793 19.95 16.9034 20.0899 16.9633L25.4448 19.2583C25.6267 19.3356 25.7786 19.4699 25.8775 19.641C25.9765 19.8121 26.0171 20.0107 25.9934 20.2069C25.8241 21.5313 25.1779 22.7486 24.1758 23.6309C23.1736 24.5132 21.8842 24.9999 20.5491 25C16.4252 25 12.4702 23.3618 9.55421 20.4458C6.6382 17.5298 5 13.5748 5 9.45095C5.00007 8.11575 5.48681 6.82637 6.3691 5.82422C7.25138 4.82206 8.46869 4.17586 9.79311 4.0066C9.98932 3.98286 10.1879 4.02352 10.359 4.12247C10.5301 4.22142 10.6644 4.37328 10.7417 4.55519L13.0387 9.9148C13.0981 10.0534 13.1223 10.2046 13.1091 10.3549C13.096 10.5051 13.0459 10.6498 12.9633 10.776L11.0612 13.6822C10.9746 13.813 10.9235 13.9639 10.9127 14.1204C10.9019 14.2768 10.9319 14.4334 10.9997 14.5747V14.5747Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M18 5C19.4381 5.38676 20.7493 6.14461 21.8024 7.19764C22.8554 8.25067 23.6132 9.5619 24 11"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M17 8C17.9587 8.25784 18.8329 8.76308 19.5349 9.46509C20.2369 10.1671 20.7422 11.0413 21 12"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M10.9997 14.5747C11.9484 16.5144 13.5207 18.0795 15.4647 19.0195C15.6069 19.0869 15.7643 19.1161 15.9212 19.1042C16.0781 19.0923 16.2293 19.0398 16.3598 18.9517L19.2221 17.0431C19.3487 16.9586 19.4944 16.9071 19.6459 16.8932C19.7974 16.8793 19.95 16.9034 20.0899 16.9633L25.4448 19.2583C25.6267 19.3356 25.7786 19.4699 25.8775 19.641C25.9765 19.8121 26.0171 20.0107 25.9934 20.2069C25.8241 21.5313 25.1779 22.7486 24.1758 23.6309C23.1736 24.5132 21.8842 24.9999 20.5491 25C16.4252 25 12.4702 23.3618 9.55421 20.4458C6.6382 17.5298 5 13.5748 5 9.45095C5.00007 8.11575 5.48681 6.82637 6.3691 5.82422C7.25138 4.82206 8.46869 4.17586 9.79311 4.0066C9.98932 3.98286 10.1879 4.02352 10.359 4.12247C10.5301 4.22142 10.6644 4.37328 10.7417 4.55519L13.0387 9.9148C13.0981 10.0534 13.1223 10.2046 13.1091 10.3549C13.096 10.5051 13.0459 10.6498 12.9633 10.776L11.0612 13.6822C10.9746 13.813 10.9235 13.9639 10.9127 14.1204C10.9019 14.2768 10.9319 14.4334 10.9997 14.5747V14.5747Z"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" id="Telegram">
-        <path d="M23.2701 4.61291L2.18588 10.5597C2.0085 10.6098 1.85062 10.7128 1.73334 10.8549C1.61605 10.9971 1.54495 11.1716 1.52954 11.3553C1.51413 11.539 1.55513 11.7229 1.64708 11.8827C1.73903 12.0424 1.87754 12.1702 2.0441 12.2491L11.7315 16.8379C11.9205 16.9274 12.0726 17.0795 12.1621 17.2685L16.7509 26.9559C16.8298 27.1225 16.9577 27.261 17.1174 27.3529C17.2771 27.4449 17.4611 27.4859 17.6447 27.4705C17.8284 27.4551 18.0029 27.384 18.1451 27.2667C18.2873 27.1494 18.3902 26.9915 18.4403 26.8141L24.3871 5.72991C24.4308 5.57504 24.4324 5.41132 24.3918 5.25561C24.3511 5.09991 24.2697 4.95785 24.156 4.84406C24.0422 4.73027 23.9001 4.64888 23.7444 4.60825C23.5887 4.56762 23.425 4.56923 23.2701 4.61291Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        <path d="M12.2109 15.2632L16.7899 10.6842" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M23.2701 4.61291L2.18588 10.5597C2.0085 10.6098 1.85062 10.7128 1.73334 10.8549C1.61605 10.9971 1.54495 11.1716 1.52954 11.3553C1.51413 11.539 1.55513 11.7229 1.64708 11.8827C1.73903 12.0424 1.87754 12.1702 2.0441 12.2491L11.7315 16.8379C11.9205 16.9274 12.0726 17.0795 12.1621 17.2685L16.7509 26.9559C16.8298 27.1225 16.9577 27.261 17.1174 27.3529C17.2771 27.4449 17.4611 27.4859 17.6447 27.4705C17.8284 27.4551 18.0029 27.384 18.1451 27.2667C18.2873 27.1494 18.3902 26.9915 18.4403 26.8141L24.3871 5.72991C24.4308 5.57504 24.4324 5.41132 24.3918 5.25561C24.3511 5.09991 24.2697 4.95785 24.156 4.84406C24.0422 4.73027 23.9001 4.64888 23.7444 4.60825C23.5887 4.56762 23.425 4.56923 23.2701 4.61291Z"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M12.2109 15.2632L16.7899 10.6842" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"></path>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6" id="ArrowSquare">
         <path d="M1 1L5 5L9 1" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -40,8 +45,10 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 18" id="Place">
         <path d="M2 17H12" stroke-linecap="round" stroke-linejoin="round"></path>
-        <path d="M7 9C8.10457 9 9 8.10457 9 7C9 5.89543 8.10457 5 7 5C5.89543 5 5 5.89543 5 7C5 8.10457 5.89543 9 7 9Z" stroke-linecap="round" stroke-linejoin="round"></path>
-        <path d="M13 7.15385C13 12.6923 7 17 7 17C7 17 1 12.6923 1 7.15385C1 5.52174 1.63214 3.95649 2.75736 2.80242C3.88258 1.64835 5.4087 1 7 1C8.5913 1 10.1174 1.64835 11.2426 2.80242C12.3679 3.95649 13 5.52174 13 7.15385V7.15385Z" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M7 9C8.10457 9 9 8.10457 9 7C9 5.89543 8.10457 5 7 5C5.89543 5 5 5.89543 5 7C5 8.10457 5.89543 9 7 9Z"
+              stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M13 7.15385C13 12.6923 7 17 7 17C7 17 1 12.6923 1 7.15385C1 5.52174 1.63214 3.95649 2.75736 2.80242C3.88258 1.64835 5.4087 1 7 1C8.5913 1 10.1174 1.64835 11.2426 2.80242C12.3679 3.95649 13 5.52174 13 7.15385V7.15385Z"
+              stroke-linecap="round" stroke-linejoin="round"></path>
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" id="YouTube">
         <path d="M16.1661 2.00789L16.1666 2.00964C16.3328 2.62103 16.4194 3.60477 16.4617 4.47274C16.4824 4.89901 16.492 5.28457 16.4964 5.5636C16.4986 5.70299 16.4995 5.81551 16.4998 5.89288L16.5 5.98148L16.5 6.00402L16.5 6.00951L16.4999 6.01077L16.4999 6.01102V6.01337V6.0134V6.01366L16.4999 6.01492L16.4999 6.02041L16.4999 6.0429L16.4993 6.13118C16.4986 6.20827 16.4973 6.32036 16.4946 6.45923C16.4891 6.73719 16.4783 7.12136 16.4567 7.54631C16.4128 8.41001 16.3264 9.39217 16.1658 10.0066C16.0146 10.5695 15.5742 11.012 15.0202 11.1634C14.7383 11.238 14.2014 11.3022 13.513 11.3521C12.8373 11.4011 12.0556 11.434 11.3109 11.456C10.5669 11.478 9.86384 11.489 9.34647 11.4945C9.08788 11.4973 8.87593 11.4986 8.72877 11.4993L8.55893 11.4999L8.51474 11.5L8.50357 11.5L8.50081 11.5H8.50015H8.5L8.49997 12L8.49995 11.5H8.4998H8.49914L8.4964 11.5L8.48527 11.5L8.44121 11.4999L8.27182 11.4993C8.12502 11.4986 7.91358 11.4971 7.65556 11.4943C7.13931 11.4886 6.43758 11.4772 5.69462 11.4543C4.95085 11.4315 4.16985 11.3974 3.49385 11.3465C2.80393 11.2946 2.26539 11.228 1.98157 11.1505L1.98126 11.1504C1.42642 10.9994 0.985262 10.5564 0.834017 9.99287C0.673647 9.38598 0.587153 8.40422 0.543213 7.53798C0.521615 7.1122 0.510797 6.72678 0.505388 6.44775C0.502685 6.30835 0.501338 6.19579 0.500666 6.11835L0.500081 6.02965L0.50001 6.00705L0.500001 6.00154L0.5 6.00026L0.5 6.00003V6.00001V6V6V5.99997L0.5 5.99974L0.500001 5.99848L0.50001 5.99299L0.500081 5.9705L0.500666 5.88222C0.501338 5.80513 0.502685 5.69304 0.505387 5.55417C0.510796 5.27621 0.521613 4.89204 0.54321 4.46709C0.587111 3.6033 0.673534 2.62103 0.834168 2.00657C0.985714 1.44276 1.44026 0.987278 1.98092 0.836267C2.26306 0.761811 2.79948 0.697777 3.48691 0.64792C4.16264 0.598912 4.94432 0.566009 5.68906 0.543998C6.433 0.522011 7.13611 0.511004 7.65348 0.505499C7.91206 0.502747 8.12401 0.501372 8.27118 0.500685L8.44102 0.500085L8.48521 0.50001L8.49638 0.500001L8.49913 0.5L8.49979 0.5H8.49994L8.49997 0L8.5 0.5H8.50015L8.50081 0.5L8.50356 0.500001L8.51472 0.500011L8.55892 0.500088L8.72879 0.500711C8.87599 0.501424 9.088 0.502851 9.34664 0.505706C9.86414 0.511419 10.5674 0.522841 11.3113 0.545656C12.0561 0.568497 12.8376 0.602636 13.5128 0.653471C14.2024 0.70539 14.738 0.772021 15.0169 0.849079L15.0187 0.849563C15.5738 1.00071 16.0151 1.44398 16.1661 2.00789ZM6.30954 8.56722V9.43558L7.06055 8.99965L11.4833 6.43243L12.2279 6.00023L11.4835 5.56768L7.06075 2.99779L6.30954 2.56129V3.4301V8.56722Z"></path>
@@ -60,7 +67,7 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
 <nav class="--main">
     <div class="wrapper">
         <a href="/" class="logo">
-            <img loading="lazy" src="<?= $options['logo']?>" alt="Dream Realty - логотип">
+            <img loading="lazy" src="<?= $options['logo'] ?>" alt="Dream Realty - логотип">
         </a>
         <div class="nav-content">
             <div class="for">
@@ -70,22 +77,22 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
                         <p>У кого <br>есть мечта</p>
                     </div>
                     <ul>
-                    <? $APPLICATION->IncludeComponent(
-                                    "bitrix:menu",
-                                    "top",
-                                    array(
-                                        "ROOT_MENU_TYPE" => "dream",
-                                        "MENU_CACHE_TYPE" => "Y",
-                                        "MENU_CACHE_TIME" => "36000000",
-                                        "MENU_CACHE_USE_GROUPS" => "Y",
-                                        "MENU_CACHE_GET_VARS" => array(),
-                                        "MAX_LEVEL" => "1",
-                                        "CHILD_MENU_TYPE" => "left",
-                                        "USE_EXT" => "N",
-                                        "ALLOW_MULTI_SELECT" => "N"
-                                    ),
-                                    false
-                                ); ?>
+                        <? $APPLICATION->IncludeComponent(
+                            "bitrix:menu",
+                            "top",
+                            array(
+                                "ROOT_MENU_TYPE" => "dream",
+                                "MENU_CACHE_TYPE" => "Y",
+                                "MENU_CACHE_TIME" => "36000000",
+                                "MENU_CACHE_USE_GROUPS" => "Y",
+                                "MENU_CACHE_GET_VARS" => array(),
+                                "MAX_LEVEL" => "1",
+                                "CHILD_MENU_TYPE" => "left",
+                                "USE_EXT" => "N",
+                                "ALLOW_MULTI_SELECT" => "N"
+                            ),
+                            false
+                        ); ?>
                     </ul>
                 </div>
                 <div class="for_item">
@@ -93,22 +100,22 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
                         <p>кому важны <br>детали</p>
                     </div>
                     <ul>
-                    <? $APPLICATION->IncludeComponent(
-                                    "bitrix:menu",
-                                    "top",
-                                    array(
-                                        "ROOT_MENU_TYPE" => "details",
-                                        "MENU_CACHE_TYPE" => "Y",
-                                        "MENU_CACHE_TIME" => "36000000",
-                                        "MENU_CACHE_USE_GROUPS" => "Y",
-                                        "MENU_CACHE_GET_VARS" => array(),
-                                        "MAX_LEVEL" => "1",
-                                        "CHILD_MENU_TYPE" => "left",
-                                        "USE_EXT" => "N",
-                                        "ALLOW_MULTI_SELECT" => "N"
-                                    ),
-                                    false
-                                ); ?>
+                        <? $APPLICATION->IncludeComponent(
+                            "bitrix:menu",
+                            "top",
+                            array(
+                                "ROOT_MENU_TYPE" => "details",
+                                "MENU_CACHE_TYPE" => "Y",
+                                "MENU_CACHE_TIME" => "36000000",
+                                "MENU_CACHE_USE_GROUPS" => "Y",
+                                "MENU_CACHE_GET_VARS" => array(),
+                                "MAX_LEVEL" => "1",
+                                "CHILD_MENU_TYPE" => "left",
+                                "USE_EXT" => "N",
+                                "ALLOW_MULTI_SELECT" => "N"
+                            ),
+                            false
+                        ); ?>
                     </ul>
                 </div>
                 <div class="for_item">
@@ -116,22 +123,22 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
                         <p>Кто ищет <br>своих</p>
                     </div>
                     <ul>
-                    <? $APPLICATION->IncludeComponent(
-                                    "bitrix:menu",
-                                    "top",
-                                    array(
-                                        "ROOT_MENU_TYPE" => "find",
-                                        "MENU_CACHE_TYPE" => "Y",
-                                        "MENU_CACHE_TIME" => "36000000",
-                                        "MENU_CACHE_USE_GROUPS" => "Y",
-                                        "MENU_CACHE_GET_VARS" => array(),
-                                        "MAX_LEVEL" => "1",
-                                        "CHILD_MENU_TYPE" => "left",
-                                        "USE_EXT" => "N",
-                                        "ALLOW_MULTI_SELECT" => "N"
-                                    ),
-                                    false
-                                ); ?>
+                        <? $APPLICATION->IncludeComponent(
+                            "bitrix:menu",
+                            "top",
+                            array(
+                                "ROOT_MENU_TYPE" => "find",
+                                "MENU_CACHE_TYPE" => "Y",
+                                "MENU_CACHE_TIME" => "36000000",
+                                "MENU_CACHE_USE_GROUPS" => "Y",
+                                "MENU_CACHE_GET_VARS" => array(),
+                                "MAX_LEVEL" => "1",
+                                "CHILD_MENU_TYPE" => "left",
+                                "USE_EXT" => "N",
+                                "ALLOW_MULTI_SELECT" => "N"
+                            ),
+                            false
+                        ); ?>
                     </ul>
                 </div>
             </div>
@@ -162,36 +169,37 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
         ));
         $i = 1;
         while ($el = $rsData->fetch()) {
-            //  print_r($el);
-            $URL = CFile::GetPath($el[UF_IMAGE]);
+        //  print_r($el);
+        $URL = CFile::GetPath($el[UF_IMAGE]);
         ?>
 
-            <div class="slide slide-<?= $i ?>" data-title="<?= $el['UF_TITLEMENU'] ?>" data-color="<?= $el['UF_COLOR'] ?>"">
-                <div class=" wrapper">
-                <h1><?= $el['UF_TITLE'] ?></h1>
-                <a href="<?= $el['UF_LINKLINK'] ?>">
-                    <?= $el['UF_LINKTITLE'] ?>
-                </a>
-                <div class="buttons">
-                    <a href="<?= $el['UF_BUT1LINK'] ?>"><?= $el['UF_BUT1TITLE'] ?></a>
-                    <a href="<?= $el['UF_BUT2LINK'] ?>"><?= $el['UF_BUT2TITLE'] ?></a>
-                </div>
+        <div class="slide slide-<?= $i ?>" data-title="<?= $el['UF_TITLEMENU'] ?>" data-color="<?= $el['UF_COLOR'] ?>"
+        ">
+        <div class=" wrapper">
+            <h1><?= $el['UF_TITLE'] ?></h1>
+            <a href="<?= $el['UF_LINKLINK'] ?>">
+                <?= $el['UF_LINKTITLE'] ?>
+            </a>
+            <div class="buttons">
+                <a href="<?= $el['UF_BUT1LINK'] ?>"><?= $el['UF_BUT1TITLE'] ?></a>
+                <a href="<?= $el['UF_BUT2LINK'] ?>"><?= $el['UF_BUT2TITLE'] ?></a>
             </div>
+        </div>
     </div>
 
 
-<?php
-            $i++;
-        }
-?>
+    <?php
+    $i++;
+    }
+    ?>
 
-</div>
+    </div>
 </main>
 
 <footer>
     <div class="mini">
         <div class="wrapper">
-            <p><?= $options['copyright']?></p>
+            <p><?= $options['copyright'] ?></p>
         </div>
     </div>
 </footer>
@@ -199,7 +207,7 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
 <div class="burger_menu --main">
     <div class="wrapper">
         <div class="top">
-            <a href="/"><img loading="lazy" src="<?= $options['logocolor']?>" alt=""></a>
+            <a href="/"><img loading="lazy" src="<?= $options['logocolor'] ?>" alt=""></a>
             <div class="pop-up__close">
                 <svg class="icon">
                     <use xlink:href="#Close"></use>
@@ -212,65 +220,65 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
                 <div class="list-item">
                     <p class="title --lightGreen">у кого есть <br>мечта</p>
                     <ul>
-                    <? $APPLICATION->IncludeComponent(
-                                    "bitrix:menu",
-                                    "top",
-                                    array(
-                                        "ROOT_MENU_TYPE" => "dream",
-                                        "MENU_CACHE_TYPE" => "Y",
-                                        "MENU_CACHE_TIME" => "36000000",
-                                        "MENU_CACHE_USE_GROUPS" => "Y",
-                                        "MENU_CACHE_GET_VARS" => array(),
-                                        "MAX_LEVEL" => "1",
-                                        "CHILD_MENU_TYPE" => "left",
-                                        "USE_EXT" => "N",
-                                        "ALLOW_MULTI_SELECT" => "N"
-                                    ),
-                                    false
-                                ); ?>
+                        <? $APPLICATION->IncludeComponent(
+                            "bitrix:menu",
+                            "top",
+                            array(
+                                "ROOT_MENU_TYPE" => "dream",
+                                "MENU_CACHE_TYPE" => "Y",
+                                "MENU_CACHE_TIME" => "36000000",
+                                "MENU_CACHE_USE_GROUPS" => "Y",
+                                "MENU_CACHE_GET_VARS" => array(),
+                                "MAX_LEVEL" => "1",
+                                "CHILD_MENU_TYPE" => "left",
+                                "USE_EXT" => "N",
+                                "ALLOW_MULTI_SELECT" => "N"
+                            ),
+                            false
+                        ); ?>
                     </ul>
                 </div>
                 <div class="group-list">
                     <div class="list-item">
                         <p class="title --lightBlue">кому важны <br>детали</p>
                         <ul>
-                        <? $APPLICATION->IncludeComponent(
-                                    "bitrix:menu",
-                                    "top",
-                                    array(
-                                        "ROOT_MENU_TYPE" => "details",
-                                        "MENU_CACHE_TYPE" => "Y",
-                                        "MENU_CACHE_TIME" => "36000000",
-                                        "MENU_CACHE_USE_GROUPS" => "Y",
-                                        "MENU_CACHE_GET_VARS" => array(),
-                                        "MAX_LEVEL" => "1",
-                                        "CHILD_MENU_TYPE" => "left",
-                                        "USE_EXT" => "N",
-                                        "ALLOW_MULTI_SELECT" => "N"
-                                    ),
-                                    false
-                                ); ?>
+                            <? $APPLICATION->IncludeComponent(
+                                "bitrix:menu",
+                                "top",
+                                array(
+                                    "ROOT_MENU_TYPE" => "details",
+                                    "MENU_CACHE_TYPE" => "Y",
+                                    "MENU_CACHE_TIME" => "36000000",
+                                    "MENU_CACHE_USE_GROUPS" => "Y",
+                                    "MENU_CACHE_GET_VARS" => array(),
+                                    "MAX_LEVEL" => "1",
+                                    "CHILD_MENU_TYPE" => "left",
+                                    "USE_EXT" => "N",
+                                    "ALLOW_MULTI_SELECT" => "N"
+                                ),
+                                false
+                            ); ?>
                         </ul>
                     </div>
                     <div class="list-item">
                         <p class="title --lightOrange">кто ищет <br>своих</p>
                         <ul>
-                        <? $APPLICATION->IncludeComponent(
-                                    "bitrix:menu",
-                                    "top",
-                                    array(
-                                        "ROOT_MENU_TYPE" => "find",
-                                        "MENU_CACHE_TYPE" => "Y",
-                                        "MENU_CACHE_TIME" => "36000000",
-                                        "MENU_CACHE_USE_GROUPS" => "Y",
-                                        "MENU_CACHE_GET_VARS" => array(),
-                                        "MAX_LEVEL" => "1",
-                                        "CHILD_MENU_TYPE" => "left",
-                                        "USE_EXT" => "N",
-                                        "ALLOW_MULTI_SELECT" => "N"
-                                    ),
-                                    false
-                                ); ?>
+                            <? $APPLICATION->IncludeComponent(
+                                "bitrix:menu",
+                                "top",
+                                array(
+                                    "ROOT_MENU_TYPE" => "find",
+                                    "MENU_CACHE_TYPE" => "Y",
+                                    "MENU_CACHE_TIME" => "36000000",
+                                    "MENU_CACHE_USE_GROUPS" => "Y",
+                                    "MENU_CACHE_GET_VARS" => array(),
+                                    "MAX_LEVEL" => "1",
+                                    "CHILD_MENU_TYPE" => "left",
+                                    "USE_EXT" => "N",
+                                    "ALLOW_MULTI_SELECT" => "N"
+                                ),
+                                false
+                            ); ?>
                         </ul>
                     </div>
                 </div>
@@ -286,30 +294,31 @@ $APPLICATION->SetTitle("ГЛАВНАЯ");
                         <svg class="icon">
                             <use xlink:href="#Place"></use>
                         </svg>
-                        <?= $options['adress']?>
+                        <?= $options['adress'] ?>
                     </p>
                 </div>
                 <div class="list-item">
-                    <a href="tel:<?= $options['phone']?>">
+                    <a href="tel:<?= $options['phone'] ?>">
                         <svg class="icon">
                             <use xlink:href="#PhoneCall"></use>
                         </svg>
-                        <?= $options['phone']?>
+                        <?= $options['phone'] ?>
                     </a>
                 </div>
                 <div class="list-item soc-magic">
                     <div class="soc-icons">
-                        <a href="<?= $options['tg']?>">
+                        <a target="_blank" href="<?= $options['tg'] ?>">
                             <svg class="icon">
                                 <use xlink:href="#Telegram"></use>
                             </svg>
                         </a>
-                        <a href="<?= $options['ig']?>">
+                        <a title="* Деятельность организации «Meta» признана экстремистской и запрещена на территории Российской Федерации"
+                           target="_blank" href="<?= $options['ig'] ?>">
                             <svg class="icon">
                                 <use xlink:href="#Instagram"></use>
                             </svg>
                         </a>
-                        <a href="<?= $options['youtube']?>">
+                        <a target="_blank" href="<?= $options['youtube'] ?>">
                             <svg class="icon">
                                 <use xlink:href="#YouTube"></use>
                             </svg>

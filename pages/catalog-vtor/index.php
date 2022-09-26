@@ -532,7 +532,7 @@ if ($idvideo) {
                     </svg>
                 </button>
             </div>
-            <a href="<?= $options['youtube'] ?>"
+            <a target="_blank" href="<?= $options['youtube'] ?>"
                class="section__edge-button wow fadeInLeft   g-flex-align-center --mgt30">
                 <div class="arrow g-flex-align-center g-flex-justify-center">
                     <svg class="icon">

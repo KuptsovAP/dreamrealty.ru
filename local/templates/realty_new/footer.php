@@ -92,17 +92,18 @@
                 </a>
             </div>
             <div class="footer__social g-flex-align-center">
-                <a href="<?= $options['tg'] ?>">
+                <a target="_blank" href="<?= $options['tg'] ?>">
                     <svg class="icon">
                         <use xlink:href="#Telegram"></use>
                     </svg>
                 </a>
-                <a href="<?= $options['ig'] ?>">
+                <a title="* Деятельность организации «Meta» признана экстремистской и запрещена на территории Российской Федерации"
+                   target="_blank"  href="<?= $options['ig'] ?>">
                     <svg class="icon">
                         <use xlink:href="#Instagram"></use>
                     </svg>
                 </a>
-                <a href="<?= $options['youtube'] ?>">
+                <a target="_blank" href="<?= $options['youtube'] ?>">
                     <svg class="icon">
                         <use xlink:href="#YouTube"></use>
                     </svg>

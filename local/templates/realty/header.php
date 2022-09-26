@@ -492,18 +492,19 @@ $rand = rand(0, 46345645242789);
                             </a>
                         </div>
                         <div class="list-item soc-magic">
-                            <div class="soc-icons">
-                                <a href="<?= $options['tg']?>">
+                            <div target="_blank" class="soc-icons">
+                                <a target="_blank" href="<?= $options['tg']?>">
                                     <svg class="icon">
                                         <use xlink:href="#Telegram"></use>
                                     </svg>
                                 </a>
-                                <a href="<?= $options['ig']?>">
+                                <a title="* Деятельность организации «Meta» признана экстремистской и запрещена на территории Российской Федерации"
+                                   target="_blank" target="_blank" href="<?= $options['ig']?>">
                                     <svg class="icon">
                                         <use xlink:href="#Instagram"></use>
                                     </svg>
                                 </a>
-                                <a href="<?= $options['youtube']?>">
+                                <a target="_blank" href="<?= $options['youtube']?>">
                                     <svg class="icon">
                                         <use xlink:href="#YouTube"></use>
                                     </svg>
@@ -728,7 +729,7 @@ $rand = rand(0, 46345645242789);
                     <?php endif ?>
 
                 <div class="header__soc">
-                    <a href="<?= $options['tg'] ?>">
+                    <a target="_blank" href="<?= $options['tg'] ?>">
                         <svg class="icon">
                             <use xlink:href="#Telegram"></use>
                         </svg>

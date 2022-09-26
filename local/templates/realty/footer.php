@@ -55,7 +55,7 @@
                         </svg>
                     </button>
                 </div>
-                <a href="<?= $options['youtube'] ?>" class="section__edge-button wow fadeInLeft   g-flex-align-center --mgt30">
+                <a target="_blank" href="<?= $options['youtube'] ?>" class="section__edge-button wow fadeInLeft   g-flex-align-center --mgt30">
                     <div class="arrow g-flex-align-center g-flex-justify-center">
                         <svg class="icon">
                             <use xlink:href="#ArrowSquare"></use>
@@ -449,12 +449,13 @@
                             <use xlink:href="#Telegram"></use>
                         </svg>
                     </a>
-                    <a href="<?= $options['ig'] ?>">
+                    <a title="* Деятельность организации «Meta» признана экстремистской и запрещена на территории Российской Федерации"
+                       target="_blank" href="<?= $options['ig'] ?>">
                         <svg class="icon">
                             <use xlink:href="#Instagram"></use>
                         </svg>
                     </a>
-                    <a href="<?= $options['youtube'] ?>">
+                    <a target="_blank" href="<?= $options['youtube'] ?>">
                         <svg class="icon">
                             <use xlink:href="#YouTube"></use>
                         </svg>

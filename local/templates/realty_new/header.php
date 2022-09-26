@@ -428,7 +428,7 @@ include 'getOptions.php';
                         <div class="list-item soc-magic">
                             <div class="soc-icons">
                                 <?php if ($options['tg']): ?>
-                                    <a href="<?= $options['tg'] ?>">
+                                    <a target="_blank" href="<?= $options['tg'] ?>">
                                         <svg class="icon">
                                             <use xlink:href="#Telegram"></use>
                                         </svg>
@@ -436,7 +436,8 @@ include 'getOptions.php';
                                 <?php endif; ?>
 
                                 <?php if ($options['ig']): ?>
-                                    <a href="<?= $options['ig'] ?>">
+                                    <a ttitle="* Деятельность организации «Meta» признана экстремистской и запрещена на территории Российской Федерации"
+                                       target="_blank"  href="<?= $options['ig'] ?>">
                                         <svg class="icon">
                                             <use xlink:href="#Instagram"></use>
                                         </svg>
@@ -444,7 +445,7 @@ include 'getOptions.php';
                                 <?php endif; ?>
 
                                 <?php if ($options['youtube']): ?>
-                                    <a href="<?= $options['youtube'] ?>">
+                                    <a target="_blank" href="<?= $options['youtube'] ?>">
                                         <svg class="icon">
                                             <use xlink:href="#YouTube"></use>
                                         </svg>
@@ -522,7 +523,7 @@ include 'getOptions.php';
 
             <div class="header__soc">
                 <?php if ($options['tg']): ?>
-                    <a href="<?= $options['tg'] ?>">
+                    <a target="_blank" href="<?= $options['tg'] ?>">
                         <svg class="icon">
                             <use xlink:href="#Telegram"></use>
                         </svg>

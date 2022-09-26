@@ -67,7 +67,7 @@ if ($idvideo) :
                 </div>
             <?php endif;?>
 
-            <a href="<?= $options['youtube'] ?>" class="section__edge-button wow fadeInLeft   g-flex-align-center --mgt30">
+            <a target="_blank" href="<?= $options['youtube'] ?>" class="section__edge-button wow fadeInLeft   g-flex-align-center --mgt30">
                 <div class="arrow g-flex-align-center g-flex-justify-center">
                     <svg class="icon">
                         <use xlink:href="#ArrowSquare"></use>

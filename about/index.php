@@ -94,7 +94,7 @@ $APPLICATION->SetTitle("О КОМПАНИИ");
                     </div>
                 <?php endif;?>
 
-                <a href="<?= $options['youtube'] ?>" class="section__edge-button wow fadeInLeft   g-flex-align-center --mgt30">
+                <a target="_blank" href="<?= $options['youtube'] ?>" class="section__edge-button wow fadeInLeft   g-flex-align-center --mgt30">
                     <div class="arrow g-flex-align-center g-flex-justify-center">
                         <svg class="icon">
                             <use xlink:href="#ArrowSquare"></use>
@@ -152,20 +152,21 @@ $APPLICATION->SetTitle("О КОМПАНИИ");
                             </svg>
                             <?= $options['phone']; ?>
                         </a>
-                        <a href=" <?= $options['tg']; ?>">
+                        <a target="_blank" href=" <?= $options['tg']; ?>">
                             <svg class="icon">
                                 <use xlink:href="#Telegram"></use>
                             </svg>
                             @dreamrealty
                         </a>
                         <hr>
-                        <a href="<?= $options['ig']; ?>">
+                        <a title="* Деятельность организации «Meta» признана экстремистской и запрещена на территории Российской Федерации"
+                           target="_blank" href="<?= $options['ig']; ?>">
                             <svg class="icon">
                                 <use xlink:href="#Instagram"></use>
                             </svg>
                             @andream_realty
                         </a>
-                        <a href="  <?= $options['youtube']; ?>">
+                        <a target="_blank" href="  <?= $options['youtube']; ?>">
                             <svg class="icon">
                                 <use xlink:href="#YouTube"></use>
                             </svg>
