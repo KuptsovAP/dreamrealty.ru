@@ -133,7 +133,7 @@ $APPLICATION->SetTitle("НОВОСТРОЙКИ");
                                             <use xlink:href="#CraneIcon"></use>
                                         </svg>
                                         <div class="title">Новостройки</div>
-                                        <p>Посмотреть схожие варианты в новостройках той же локации</p>
+                                        <p>Посмотреть схожие варианты в новостройках этой же локации</p>
                                     </div>
                                     <div class="section_product_footer">
                                         <button class="favorite">
