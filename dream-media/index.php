@@ -424,7 +424,7 @@ $APPLICATION->SetTitle("DREAM MEDIA");
                     <label class="inputCheckbox">
                         <button type="submit" class="btn --mgb20 --<? $APPLICATION->ShowProperty("color") ?>">Отправить вопрос</button>
                         <input type="checkbox" required="" checked="" tabindex="0">
-                        <span>Нажимая на кнопку "Отправить вопрос", вы даете согласие на обработку персональных данных</span>
+                        <span>Нажимая на кнопку "Отправить вопрос", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                     </label>
                 </form>
             </div>

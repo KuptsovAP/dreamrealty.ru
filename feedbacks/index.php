@@ -201,7 +201,7 @@ $rsData = $entity_data_class::getList(array(
                     </label>
                     <label class="inputCheckbox">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Отправить отзыв", вы даете согласие на обработку персональных данных</span>
+                        <span>Нажимая на кнопку "Отправить отзыв", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
                     </label>
                 </form>
             </div>

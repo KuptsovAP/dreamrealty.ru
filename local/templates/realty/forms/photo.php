@@ -187,6 +187,6 @@
     </label>
     <label class="inputCheckbox">
         <input type="checkbox" required checked>
-        <span>Нажимая на кнопку "Заказать фотосъемку", вы даете согласие на обработку персональных данных</span>
+        <span>Нажимая на кнопку "Заказать фотосъемку", <a href="/policy/">вы даете согласие на обработку персональных данных</a></span>
     </label>
 </form>
