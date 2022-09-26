@@ -6,10 +6,10 @@ $arDirProperties = Array(
    "but1link" => "#orderConsultationModal2",
    "color" => "pink",
    "idbackground" => "6",
-    'podcasts' => "1,2,3,4",
-    'idvideo' => "1",
-    "comands" => "27",
-    "title_comands" => "Одобрением вашей ипотеки будет заниматься кредитный брокер, а не обычный агент",
-   "p_title" => "Когда время и комфорт дороже денег"
+   "p_title" => "Когда время и комфорт дороже денег",
+   "idvideo" => "9",
+   "podcasts" => "2,14,15,16",
+   "comands" => "27",
+   "title_comands" => "Одобрением вашей ипотеки будет заниматься кредитный брокер, а не обычный агент"
 );
 ?>

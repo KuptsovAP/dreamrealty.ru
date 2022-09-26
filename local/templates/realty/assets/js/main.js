@@ -178,18 +178,68 @@ $(document).ready(function() {
     });
 
 
-    $('select').select2({
-        minimumResultsForSearch: Infinity,
-        width: 'resolve',
-        //multiple: true,
-        maximumSelectionLength: 4,
-        closeOnSelect: false,
-        dropdownPosition: 'below',
-        searchInputPlaceholder: function() {
-            var obj = $(this);
-            return (obj.attr('data-searchInputPlaceholder') != undefined) ? obj.attr('data-searchInputPlaceholder') : 'Поиск...';
+    $('select').not('[multiple="multiple"]').each(function (i) {
+        type = 'below';
+        if($(this).closest('.advantages-pop-up').length) {
+            type = 'above';
         }
+        $(this).select2({
+            minimumResultsForSearch: Infinity,
+            width: 'resolve',
+            //multiple: true,
+            maximumSelectionLength: 4,
+            closeOnSelect: false,
+            dropdownPosition: type,
+        });
     })
+
+    var Utils = $.fn.select2.amd.require('select2/utils');
+    var Dropdown = $.fn.select2.amd.require('select2/dropdown');
+    var DropdownSearch = $.fn.select2.amd.require('select2/dropdown/search');
+    var AttachBody = $.fn.select2.amd.require('select2/dropdown/attachBody');
+    var dropdownAdapter = Utils.Decorate(Utils.Decorate(Dropdown, DropdownSearch), AttachBody);
+    $('select[multiple]').each(function (i) {
+        type = 'below';
+        if($(this).closest('.advantages-pop-up').length) {
+            type = 'above';
+        }
+        $(this).select2({
+            minimumResultsForSearch: Infinity,
+            width: 'resolve',
+            multiple: true,
+            maximumSelectionLength: 4,
+            closeOnSelect: false,
+            dropdownAdapter: dropdownAdapter,
+            dropdownPosition: type,
+        });
+    })
+
+    $('select').on('select2:open', function (event) {
+        var hide = false;
+        var name = $(this).attr('name');
+        if (name == 'sort_peaple') {
+            hide = true;
+            $('.select2-search.select2-search--dropdown').hide();
+        }
+        var text = $(this).data('placeholder');
+        console.log(text);
+        if (
+            text == 'Количество комнат' || text == 'Бюджет*' || text == 'Бюджет'
+            || text == 'Тип объекта' || text == 'Стадия готовности' || text == 'Цель покупки*'
+            || text == 'Бюджет покупки' || text == 'Выбрать эксперта' || text == 'Цель покупки'
+            || text == 'Тип услуги*' || text == '↑↓ По умолчанию'
+        ) {
+            hide = true;
+            $('.select2-search.select2-search--dropdown').hide();
+        }
+        if (!hide) {
+            $('.select2-search.select2-search--dropdown').show();
+            if (!$('.select2-search.select2-search--dropdown input').val()) {
+                $('.select2-search.select2-search--dropdown input').attr("placeholder", "Начните вводить " + text);
+            }
+        }
+    });
+
 
     $(document).on('click', '.select2', function() {
         let parentForm = $(this).parent('.no-js');

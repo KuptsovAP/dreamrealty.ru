@@ -6,7 +6,7 @@
     <label>
         <input type="tel" class="phone" placeholder="Телефон*" required>
     </label>
-    <button type="submit" class="btn --<? $APPLICATION->ShowProperty("color") ?>">Заказать консультацию</button>
+    <button type="submit" class="btn --<? $APPLICATION->ShowProperty("color") ?>">Отправить заявку</button>
     <label>
         <select data-placeholder="Цель покупки*" required>
             <option value="">&nbsp;</option>
@@ -193,7 +193,7 @@
     </label>
     <label class="inputCheckbox">
         <input type="checkbox" required checked>
-        <span>Нажимая на кнопку "Заказать консультацию", вы даете согласие на обработку персональных данных</span>
+        <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
     </label>
     <label class="w66 w100-xs">
         <input type="text" placeholder="Комментарии">

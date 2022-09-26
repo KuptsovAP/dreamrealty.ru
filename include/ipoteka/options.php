@@ -1,8 +1,20 @@
-<section class="section --grayBlock --pdb90">
+<section class="section --grayBlock --pdb40">
     <div class="wrapper">
-        <h3 class="--mgb60">Нам доверяют <span class="--pink">рефинансирование ипотеки <br>
-	в таких случаях как:</span></h3>
-        <div class="section__check-blocks g-flex-wrap g-flex-between --mgb90">
+        <h3 class="--mgb60">Нам доверяют <span class="--pink">одобрение ипотеки</span> <br>
+            в таких случаях, как:</h3>
+        <div class="section__check-blocks g-flex-wrap g-flex-between --mgb40">
+            <div class="section__check-block">
+                <svg class="icon">
+                    <use xlink:href="#CheckCircle"></use>
+                </svg>
+                Отсутствие первоначального взноса
+            </div>
+            <div class="section__check-block">
+                <svg class="icon">
+                    <use xlink:href="#CheckCircle"></use>
+                </svg>
+                Отсутствие российского резидентства
+            </div>
             <div class="section__check-block">
                 <svg class="icon">
                     <use xlink:href="#CheckCircle"></use>
@@ -13,7 +25,7 @@
                 <svg class="icon">
                     <use xlink:href="#CheckCircle"></use>
                 </svg>
-                Наличие неоднократного отказа банков
+                Регистрация в другом регионе
             </div>
             <div class="section__check-block">
                 <svg class="icon">
@@ -25,7 +37,7 @@
                 <svg class="icon">
                     <use xlink:href="#CheckCircle"></use>
                 </svg>
-                Регистрация в другом регионе или отсутствие российского резидентства
+                Привлечение материнского капитала
             </div>
             <div class="section__check-block">
                 <svg class="icon">
@@ -37,7 +49,7 @@
                 <svg class="icon">
                     <use xlink:href="#CheckCircle"></use>
                 </svg>
-                Привлечение материнского капитала
+                Исполнительные производства
             </div>
             <div class="section__check-block">
                 <svg class="icon">
@@ -49,7 +61,7 @@
                 <svg class="icon">
                     <use xlink:href="#CheckCircle"></use>
                 </svg>
-                Исполнительные производства
+                Неоднократный отказ в ипотеке
             </div>
         </div>
         <h3 class="text-align-end">Счастливые обладатели белой зарплаты<br>

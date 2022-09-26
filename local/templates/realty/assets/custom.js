@@ -83,4 +83,9 @@ $(document).ready(function(){
 
     });
 
+    $(document).on('keyup', '[name="price_min"], [name="price_max"]', function (e){
+
+        $(this).val(new Intl.NumberFormat('ru-RU').format($(this).val().replace(/\s/g, '')));
+    });
+
 });

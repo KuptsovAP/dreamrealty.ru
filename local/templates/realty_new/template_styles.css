@@ -422,3 +422,51 @@ nav .wrapper .nav-content, nav .container .nav-content {
 .section__feedback-slider .section__feedback-slide .section__feedback-col .section__feedback-block.share.--orange {
     background: #DD7E3C;
 }
+
+.transparent_pop-up ::placeholder, .transparent_pop-up .select2-selection__rendered {
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 80px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #4B4A4A;
+}
+
+.transparent_pop-up [placeholder="Комментарий"]::placeholder, .transparent_pop-up [placeholder="Адрес, кол-во комнат"]::placeholder {
+    color: rgba(196,196,196,1);
+}
+
+.transparent_pop-up .select2-selection__placeholder {
+    padding: 0 24px !important;
+}
+
+form label textarea::placeholder, form label input::placeholder {
+    color: rgba(196,196,196,1);
+    font-weight: 500;
+}
+
+.select2-dropdown {
+    z-index: 232323232332;
+}
+
+.advantages-pop-up .pop-up__header .pop-up__header_gray {
+    margin-top: 150px;
+    padding-bottom: 45px;
+}
+
+.advantages-pop-up .pop-up__header .pop-up__header_gray .pop-up__header_top .pop-up__header_text {
+    width: calc(53% - 26px);
+}
+
+.advantages-pop-up .fix-height-li .advantage-pop-up__differences .advantage-pop-up__difference ul li {
+    height: 60px;
+}
+
+.select2-container--open .select2-dropdown--above {
+    border-bottom-left-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}

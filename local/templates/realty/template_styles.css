@@ -382,3 +382,41 @@ nav .wrapper .nav-content, nav .container .nav-content {
 .advantages-pop-up {
     z-index: 99999 !important;
 }
+
+.transparent_pop-up ::placeholder, .transparent_pop-up .select2-selection__rendered {
+    height: 100%;
+    width: 100%;
+    border-radius: 80px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #4B4A4A;
+}
+
+.transparent_pop-up .select2-selection__placeholder {
+    padding: 0 24px !important;
+}
+
+form label textarea::placeholder, form label input::placeholder {
+    color: #4B4A4A;
+    font-weight: 500;
+}
+
+.select2-dropdown {
+    z-index: 232323232332;
+}
+
+.--green strong {
+    color: #005453 !important;
+}
+
+.section_product .section__product-image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.advantages-pop-up .pop-up__header .pop-up__header_gray {
+    margin-top: 170px;
+    padding-bottom: 45px;
+}

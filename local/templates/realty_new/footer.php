@@ -153,6 +153,21 @@
     </div>
 </div>
 
+<div class="advantages-pop-up pop-up g-flex-column --pdb90 old-popup-style" id="newBuildExpert">
+    <div class="content wrapper">
+        <section class="section pop-up__header">
+            <div class="pop-up__close">
+                <svg class="icon">
+                    <use xlink:href="#Close"></use>
+                </svg>
+            </div>
+            <div class="section__content-changer g-flex-column">
+                <?include($_SERVER['DOCUMENT_ROOT'].'/local/forms/choose-expert-new-buildings.php');?>
+            </div>
+        </section>
+    </div>
+</div>
+
 <!--feedbackPop  Оставить отзыв-->
 <div class="transparent_pop-up place-agent-choose g-flex-align-center g-flex-justify-center" id="feedbackPop">
     <div class="wrapper">

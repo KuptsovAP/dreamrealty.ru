@@ -9,10 +9,10 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
             <h1 class="--white">Преимущества рефинансирования ипотеки с нами</h1>
             <p>Когда время и комфорт дороже денег</p>
             <div class="header__buttons g-flex-align-stretch">
-                <a href="#formBlockSmooth" class="btn --pink js__smoothScroll">Оставить заявку</a>
+                <a href="#formBlockSmooth" class="btn --pink js__smoothScroll">Отправить заявку</a>
             </div>
         <div class="header__soc">
-                <a href="https://t.me/FromDreamToRealty">
+                <a href="https://t.me/DreamAgent_bot">
                     <svg class="icon">
                         <use xlink:href="#Telegram"></use>
                     </svg>
@@ -29,7 +29,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
 
     <!-- Main -->
     <main>
-        
+
         <section class="section advantages-page grayHalfBG">
             <div class="wrapper">
                 <div class="section__big-text --mgb60">
@@ -85,7 +85,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                                 <h3>Кредитные брокеры</h3>
                             </div>
                             <div class="section__peoples g-flex-wrap g-flex-between g-flex-align-start">
-                            <?                      
+                            <?
                                     $dbItems = \Bitrix\Iblock\ElementTable::getList(array(
                                                     'select' => array('*'),
                                                     'filter' => array('IBLOCK_ID' => 8, 'IBLOCK_SECTION_ID' => 7)
@@ -94,11 +94,11 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                                         $dbProperty = \CIBlockElement::getProperty(
                                             $arItem['IBLOCK_ID'],
                                             $arItem['ID']
-                                        ); 
-                                        while($arProperty = $dbProperty->Fetch()){  
+                                        );
+                                        while($arProperty = $dbProperty->Fetch()){
                                             $arItem['PROPERTIES'][] = $arProperty;
                                         }
-                                        //print_r($arItem);    
+                                        //print_r($arItem);
                                         //echo CFile::GetPath($arItem['PREVIEW_PICTURE']);
                                         ?>
                                         <a href="/team/detail.php?person=<?=$arItem['ID']?>/" class="section__people">
@@ -108,7 +108,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                                             <p class="section__people_name"><?=$arItem['NAME']?></p>
                                             <p class="section__people_phone"><?=$arItem['PROPERTIES']['0']['VALUE']?></p>
                                           <!--  <p class="section__people_feeds">25 отзывов</p>!-->
-                                    
+
                                         </a>
                                         <?
                                     }
@@ -145,7 +145,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                                 <h3>Юристы</h3>
                             </div>
                             <div class="section__peoples g-flex-wrap g-flex-between g-flex-align-start">
-                            <?                      
+                            <?
                                     $dbItems = \Bitrix\Iblock\ElementTable::getList(array(
                                                     'select' => array('*'),
                                                     'filter' => array('IBLOCK_ID' => 8, 'IBLOCK_SECTION_ID' => 6)
@@ -154,11 +154,11 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                                         $dbProperty = \CIBlockElement::getProperty(
                                             $arItem['IBLOCK_ID'],
                                             $arItem['ID']
-                                        ); 
-                                        while($arProperty = $dbProperty->Fetch()){  
+                                        );
+                                        while($arProperty = $dbProperty->Fetch()){
                                             $arItem['PROPERTIES'][] = $arProperty;
                                         }
-                                        //print_r($arItem);    
+                                        //print_r($arItem);
                                         //echo CFile::GetPath($arItem['PREVIEW_PICTURE']);
                                         ?>
                                         <a href="/team/detail.php?person=<?=$arItem['ID']?>/" class="section__people">
@@ -168,7 +168,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                                             <p class="section__people_name"><?=$arItem['NAME']?></p>
                                             <p class="section__people_phone"><?=$arItem['PROPERTIES']['0']['VALUE']?></p>
                                           <!--  <p class="section__people_feeds">25 отзывов</p>!-->
-                                    
+
                                         </a>
                                         <?
                                     }
@@ -252,7 +252,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
     <div class="transparent_pop-up place-agent-choose g-flex-align-center g-flex-justify-center">
         <div class="wrapper">
             <div class="text-block">
-                
+
                 <form class="g-flex-wrap g-flex-between g-flex-align-center --mgt30">
                     <div class="pop-up__close">
                         <svg class="icon">
@@ -357,7 +357,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                         <label>
                             <input type="tel" class="phone" placeholder="Телефон*" required>
                         </label>
-                        <button type="submit" class="btn --pink">Оставить заявку</button>
+                        <button type="submit" class="btn --pink">Отправить заявку</button>
                         <label>
                             <select data-placeholder="Район покупки*" required>
                                 <option value="">&nbsp;</option>
@@ -538,7 +538,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                         </label>
                         <label class="inputCheckbox">
                             <input type="checkbox" required checked>
-                            <span>Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку персональных данных</span>
+                            <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                         </label>
                     </form>
                 </div>
@@ -586,7 +586,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                         <label>
                             <input type="tel" class="phone" placeholder="Телефон*" required>
                         </label>
-                        <button type="submit" class="btn --pink">Оставить заявку</button>
+                        <button type="submit" class="btn --pink">Отправить заявку</button>
                         <label>
                             <select data-placeholder="Район покупки*" required>
                                 <option value="">&nbsp;</option>
@@ -767,14 +767,14 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                         </label>
                         <label class="inputCheckbox">
                             <input type="checkbox" required checked>
-                            <span>Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку персональных данных</span>
+                            <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                         </label>
                     </form>
                 </div>
             </section>
         </div>
     </div>
-    
+
     <div class="advantages-pop-up pop-up g-flex-column --pdb90" id="advant_pop-up3">
         <div class="content wrapper">
             <section class="section pop-up__header">
@@ -827,7 +827,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                         <label>
                             <input type="tel" class="phone" placeholder="Телефон*" required>
                         </label>
-                        <button type="submit" class="btn --pink">Оставить заявку</button>
+                        <button type="submit" class="btn --pink">Отправить заявку</button>
                         <label>
                             <select data-placeholder="Тип услуги*" required>
                                 <option value="">&nbsp;</option>
@@ -841,7 +841,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ПРИ РЕФИНАНСИРОВ
                         </label>
                         <label class="inputCheckbox">
                             <input type="checkbox" required checked>
-                            <span>Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку персональных данных</span>
+                            <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                         </label>
                     </form>
                 </div>

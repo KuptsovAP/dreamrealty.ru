@@ -1707,13 +1707,13 @@
                     <label>
                         <input type="tel" class="phone" placeholder="Телефон*" required>
                     </label>
-                    <button type="submit" class="btn --lightViolet">Оставить заявку</button>
+                    <button type="submit" class="btn --lightViolet">Отправить заявку</button>
                     <label class="w66 w100-xs">
                         <input type="text" placeholder="Комментарий">
                     </label>
                     <label class="inputCheckbox">
                         <input type="checkbox" required checked>
-                        <span>Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку персональных данных</span>
+                        <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                     </label>
                 </form>
             </div>
@@ -2346,7 +2346,7 @@
                             </div>
                             <div class="section_product_content">
                                 <a href="/pages/catalog-novostr/detail.php?id=${object.id}" class="title" style="color:#4B4A4A;">
-                                    ${object.title} 
+                                    ${object.title}
                                     <div class="size">
                                         <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M8.69915 1L6 6.96737L3.33567 1L1 9H2.7284L3.73619 5.00932L5.72138 9H6.26121L8.24639 4.97203L9.21936 9H11L8.69915 1Z" fill="#4B4A4A" stroke="#4B4A4A" stroke-linecap="round" stroke-linejoin="round"/>

@@ -6,9 +6,9 @@
     <label>
         <input type="tel" class="phone" placeholder="Телефон*" required>
     </label>
-    <button type="submit" class="btn --<? $APPLICATION->ShowProperty("color") ?>">Заказать консультацию</button>
+    <button type="submit" class="btn --<? $APPLICATION->ShowProperty("color") ?>">Отправить заявку</button>
     <label>
-        <select multiple="multiple" data-placeholder="Район покупки*" required>
+        <select multiple="multiple" data-placeholder="Район покупки">
             <option value="">&nbsp;</option>
             <optgroup label="ЦАО">
                 <option>Арбат</option>
@@ -183,10 +183,10 @@
         </select>
     </label>
     <label>
-        <input type="text" placeholder="Бюджет, кол-во комнат*" required>
+        <input type="text" placeholder="Бюджет, кол-во комнат">
     </label>
     <label class="inputCheckbox">
         <input type="checkbox" required checked>
-        <span>Нажимая на кнопку "Заказать консультацию", вы даете согласие на обработку персональных данных</span>
+        <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
     </label>
 </form>

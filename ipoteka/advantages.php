@@ -662,7 +662,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ОДОБРЕНИЯ ИПОТЕК
                             <label>
                                 <input type="tel" class="phone" placeholder="Телефон*" required>
                             </label>
-                            <button type="submit" class="btn --pink">Оставить заявку</button>
+                            <button type="submit" class="btn --pink">Отправить заявку</button>
                             <label>
                                 <select data-placeholder="Район покупки*" required>
                                     <option value="">&nbsp;</option>
@@ -843,7 +843,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ОДОБРЕНИЯ ИПОТЕК
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку персональных данных</span>
+                                <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -893,7 +893,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ОДОБРЕНИЯ ИПОТЕК
                             <label>
                                 <input type="tel" class="phone" placeholder="Телефон*" required>
                             </label>
-                            <button type="submit" class="btn --pink">Оставить заявку</button>
+                            <button type="submit" class="btn --pink">Отправить заявку</button>
                             <label>
                                 <select data-placeholder="Район покупки*" required>
                                     <option value="">&nbsp;</option>
@@ -1074,7 +1074,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ОДОБРЕНИЯ ИПОТЕК
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку персональных данных</span>
+                                <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>
@@ -1136,7 +1136,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ОДОБРЕНИЯ ИПОТЕК
                             <label>
                                 <input type="tel" class="phone" placeholder="Телефон*" required>
                             </label>
-                            <button type="submit" class="btn --pink">Оставить заявку</button>
+                            <button type="submit" class="btn --pink">Отправить заявку</button>
                             <label>
                                 <select data-placeholder="Тип услуги*" required>
                                     <option value="">&nbsp;</option>
@@ -1150,7 +1150,7 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ОДОБРЕНИЯ ИПОТЕК
                             </label>
                             <label class="inputCheckbox">
                                 <input type="checkbox" required checked>
-                                <span>Нажимая на кнопку "Оставить заявку", вы даете согласие на обработку персональных данных</span>
+                                <span>Нажимая на кнопку "Отправить заявку", вы даете согласие на обработку персональных данных</span>
                             </label>
                         </form>
                     </div>

@@ -64,7 +64,7 @@ $this->setFrameMode(true);
                                         <? if ($ITEM['PROPERTIES']['BTN_LINK']['VALUE']) : ?>
                                             <a href=" <?= $ITEM['PROPERTIES']['BTN_LINK']['VALUE'] ?>"
                                                target="_blank"
-                                               class="section__edge-button wow fadeInLeft  g-flex-align-center --mgt60"
+                                               class="section__edge-button wow fadeInLeft  g-flex-align-center --mgt20"
                                                style="visibility: visible; animation-name: fadeInLeft;">
                                                 <div class="arrow g-flex-align-center g-flex-justify-center">
                                                     <svg class="icon">

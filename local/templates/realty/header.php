@@ -82,6 +82,7 @@ $rand = rand(0, 46345645242789);
     <?php if ($APPLICATION->GetCurPage() == "/pages/catalog-vtor/") : ?>
         <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/assets/css/main--green.css?v=<?=rand(0, 255)?>">
         <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/assets/css/fast-fixes.css?v=<?=rand(0, 255)?>">
+        <script src="https://yastatic.net/share2/share.js"></script>
     <?php endif ?>
 
     <?php if ($APPLICATION->GetCurPage() == "/pages/catalog-rent/") : ?>
@@ -584,7 +585,7 @@ $rand = rand(0, 46345645242789);
                             }
                         ?>
                         </select>
-                        <select <? if($_GET['UF_AMOUNT_ROOMS'] !='') { ?> value="<?=$_GET['UF_AMOUNT_ROOMS']?>" <? } ?> name="UF_AMOUNT_ROOMS" data-placeholder="Количество комнат" style="width: 200px;">
+                        <select multiple="multiple" <? if($_GET['UF_AMOUNT_ROOMS'] !='') { ?> value="<?=$_GET['UF_AMOUNT_ROOMS']?>" <? } ?> name="UF_AMOUNT_ROOMS" data-placeholder="Количество комнат" style="width: 200px;">
                             <option value="">&nbsp;</option>
                             <?
                             $obEnum = new \CUserFieldEnum;

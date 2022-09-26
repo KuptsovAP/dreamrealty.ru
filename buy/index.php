@@ -220,7 +220,7 @@ $APPLICATION->IncludeComponent(
         "AREA_FILE_SHOW" => "file",
         "AREA_FILE_SUFFIX" => "inc",
         "EDIT_TEMPLATE" => "",
-        "FORM_ID" => "feedbackPop2",
+        "FORM_ID" => "feedbackPop3",
         "PATH" => "/include/section_have_questions.php"
     )
 );?>

@@ -149,6 +149,12 @@ button:disabled,
     .header .wrapper {
         min-height: 250px !important;
     }
+    .header .wrapper {
+        margin-top: 70px;
+    }
+    .header {
+        background-position-y: -170px;
+    }
     .header .wrapper p {
         font-size: 14pt;
         margin-top: -10px;
