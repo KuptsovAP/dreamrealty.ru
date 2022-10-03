@@ -12,7 +12,8 @@ $APPLICATION->SetTitle("АРЕНДОВАТЬ НЕДВИЖИМОСТЬ С НАМ�
         "AREA_FILE_SUFFIX" => "inc",
         "EDIT_TEMPLATE" => "",
         "CLASS_TABS_FLEX" => "g-flex-align-center center ",
-        "PATH" => "/include/command-dream-realty.php"
+        "PATH" => "/include/command-dream-realty.php",
+        "HIDE" => 'Y'
     )
 );?>
 
@@ -120,26 +121,25 @@ if ($idpodcasts) :
                         $URL = $URL["SRC"];
                         $audio = CFile::GetFileArray($el['UF_FILE']);
                         $audio = $audio["SRC"];
-
+                        $podcast_URL = $el['UF_URL'];
                         $video = $el['UF_URL'];
                         $title =  $el['UF_TITLE'];
                         ?>
-
-                        <div class="section__podcast g-flex-column" style="background-image: url(<?=$URL?>);">
-                            <div class="section__podcast_name"><?= $title ?></div>
-                            <img loading="lazy" src="<?= SITE_TEMPLATE_PATH ?>/assets/svg/PodcastIcon.svg" alt="" class="section__podcast_icon --mgb40">
-                            <audio data-status="stopped" controls src="<?= $audio ?>" class="section__podcast_audio-tag">
+                        <div class="section__podcast g-flex-column" style="background-image: url(<?=$URL;?>);">
+                            <div class="section__podcast_name"><?=$title;?></div>
+                            <img loading="lazy" src="/html/assets/svg/PodcastIcon.svg" alt="" class="section__podcast_icon --mgb40">
+                            <audio data-status="stopped" controls src="<?=$audio;?>" class="section__podcast_audio-tag">
                                 Тег audio не поддерживается вашим браузером.
                             </audio>
                             <div class="section__podcast_audio g-flex-align-center">
-                                <img loading="lazy" src="<?= SITE_TEMPLATE_PATH ?>/assets/svg/Audio--Play.svg" data-pause="<?= SITE_TEMPLATE_PATH ?>/assets/svg/pause.svg" data-play="<?= SITE_TEMPLATE_PATH ?>/assets/svg/Audio--Play.svg" alt="" class="js_play-pause">
+                                <img loading="lazy" src="/html/assets/svg/Audio--Play.svg" data-pause="/html/assets/svg/pause.svg" data-play="/html/assets/svg/Audio--Play.svg" alt="" class="js_play-pause">
                                 <div class="timeline">
                                     <div class="currentTime"></div>
                                     <span class="curNumTime">00:00</span>
                                     <span class="allTime">00:00</span>
                                 </div>
-                                <a href="<?= $options['tg'] ?>" target="_blank" class="section__podcast_comment g-flex-align-center">
-                                    <img loading="lazy" src="<?= SITE_TEMPLATE_PATH ?>/assets/svg/Comment.svg" alt="">
+                                <a href="<?=(!empty($podcast_URL) ? $podcast_URL : 'https://t.me/FromDreamToRealty');?>" target="_blank" class="section__podcast_comment g-flex-align-center">
+                                    <img loading="lazy" src="/html/assets/svg/Comment.svg" alt="">
                                     Комментировать
                                 </a>
                             </div>
@@ -172,10 +172,6 @@ if ($idpodcasts) :
                         Коммерческая
                     </div>
                 </div>
-                <svg class="--lightBlue" viewBox="0 0 32 32">
-                    <path d="M26 16L16 26L6 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M26 6L16 16L6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
                 <div class="section__content-slider slider">
                     <div class="section__content-slide">
                         <?include($_SERVER['DOCUMENT_ROOT'].'/local/forms/choose-local-agent-rent.php');?>

@@ -502,3 +502,84 @@ form label textarea::placeholder, form label input::placeholder {
 .section__peoples .section__people {
     margin-bottom: 33px;
 }
+
+.section__question {
+    height: 55px !important;
+}
+
+.questions  .slider-navs {
+    padding-top: 0;
+    margin-top: -40px;
+}
+
+.questions .section__content-changer .section__content-slider .slick-dots {
+    bottom: -15px;
+}
+
+.section.catalog {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.inputCheckbox input {
+    display: block !important;
+    opacity: 0;
+    position: absolute;
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 15px;
+}
+
+.select2-hidden-accessible {
+    padding-top: 30px !important;
+    margin-left: 30px !important;
+}
+
+.advantages-pop-up .advantage-pop-up__differences .advantage-pop-up__difference {
+    max-width: calc(50% - 10px);
+}
+
+.advantages-pop-up .advantage-pop-up__differences .advantage-pop-up__difference .advantage-pop-up__difference_title {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1000px) {
+    .advantages-pop-up .fix-height-li .advantage-pop-up__differences .advantage-pop-up__difference ul li {
+        height: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .advantages-pop-up .fix-height-li .advantage-pop-up__differences .advantage-pop-up__difference ul li {
+        height: auto;
+    }
+
+    .advantages-pop-up .advantage-pop-up__differences .advantage-pop-up__difference {
+        max-width: 100%;
+    }
+
+    .advantages-pop-up .pop-up__header .pop-up__header_gray .pop-up__header_top .pop-up__header_text {
+        width: 100%;
+    }
+}
+
+.transparent_pop-up {
+    z-index: 10009 !important;
+}
+
+.select2-dropdown .select2-results__options[aria-multiselectable="true"] .select2-results__option.select2-results__option--selectable::before {
+    content: "";
+    display: block;
+    min-width: 12px;
+    height: 12px;
+    border-radius: 0px;
+    margin-right: 20px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.section__calc .section__calc_input .section__calc_input-row .section__calc_input-item p {
+    width: 60%;
+    margin-right: 15px;
+}

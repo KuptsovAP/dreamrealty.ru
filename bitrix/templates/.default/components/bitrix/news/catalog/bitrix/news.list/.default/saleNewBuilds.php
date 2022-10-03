@@ -122,7 +122,7 @@
                         </svg>
                         <div class="info">
                             <div class='title'>Вторичка</div>
-                            <p>Посмотреть похожие варианты на вторичке этого округа</p>
+                            <p>Посмотреть похожие варианты на вторичке этой же локации</p>
                         </div>
                     </div>
                     <div class="section_product_footer">
@@ -228,7 +228,7 @@
                             </svg>
                             <div class="info">
                                 <div class='title'>Вторичка</div>
-                                <p>Посмотреть похожие варианты на вторичке этого округа</p>
+                                <p>Посмотреть похожие варианты на вторичке этой же локации</p>
                             </div>
                         </div>
                         <div class="section_product_footer">

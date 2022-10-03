@@ -307,7 +307,7 @@
             </p>
         </div>
 
-        <?include($_SERVER['DOCUMENT_ROOT'].'/local/forms/send-request-right-now-service-type.php');?>
+        <? include($_SERVER['DOCUMENT_ROOT'] . '/local/forms/send-request-right-now-service-type.php'); ?>
 
     </div>
 </div>

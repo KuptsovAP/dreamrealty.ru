@@ -14,9 +14,20 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-<section class="section advantage-cards relative grayHalfBG --pdb60">
+<style>
+    .advantage-cards span.--green {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+</style>
+<section class="section advantage-cards relative grayHalfBG --pdb60"
+    <?php
+    if ($arParams['ID_SECTION']) :
+        echo 'id="' . $arParams['ID_SECTION'] . '"';
+    endif;
+    ?>>
     <div class="wrapper">
-        <h2 class="section__title --mgb60"><?= $arParams['TITLE'] ?><span class="--green">Преимущества</span> покупки квартиры в новостройке с нами</h2>
+        <h2 class="section__title --mgb60"><?= $arParams['~TITLE'] ?></h2>
         <div class="section__advantage-cards_slider slider --min-text">
             <? foreach ($arResult['ITEMS'] as $ITEM) : ?>
                 <div class="section__advantage-cards_slide">
@@ -45,7 +56,8 @@ $this->setFrameMode(true);
                 </svg>
             </button>
         </div>
-        <a href="<?= $arParams['URL'] ?>" target="_blank" class="section__edge-button wow fadeInLeft  g-flex-align-center">
+        <a href="<?= $arParams['URL'] ?>" target="_blank"
+           class="section__edge-button wow fadeInLeft  g-flex-align-center">
             <div class="arrow g-flex-align-center g-flex-justify-center">
                 <svg class="icon">
                     <use xlink:href="#ArrowSquare"></use>

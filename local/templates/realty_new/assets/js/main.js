@@ -180,7 +180,7 @@ $(document).ready(function () {
 
     $('select').not('[multiple="multiple"]').each(function (i) {
         type = 'below';
-        if($(this).closest('.advantages-pop-up').length) {
+        if ($(this).closest('.advantages-pop-up').length) {
             type = 'above';
         }
         $(this).select2({
@@ -188,7 +188,7 @@ $(document).ready(function () {
             width: 'resolve',
             //multiple: true,
             maximumSelectionLength: 4,
-            closeOnSelect: false,
+            closeOnSelect: true,
             dropdownPosition: type,
         });
     })
@@ -200,7 +200,7 @@ $(document).ready(function () {
     var dropdownAdapter = Utils.Decorate(Utils.Decorate(Dropdown, DropdownSearch), AttachBody);
     $('select[multiple]').each(function (i) {
         type = 'below';
-        if($(this).closest('.advantages-pop-up').length) {
+        if ($(this).closest('.advantages-pop-up').length) {
             type = 'above';
         }
         $(this).select2({
@@ -236,7 +236,7 @@ $(document).ready(function () {
         if (!hide) {
             $('.select2-search.select2-search--dropdown').show();
             if (!$('.select2-search.select2-search--dropdown input').val()) {
-                $('.select2-search.select2-search--dropdown input').attr("placeholder", "Начните вводить " + text);
+                $('.select2-search.select2-search--dropdown input').attr("placeholder", "Начните вводить " + text.toLowerCase());
             }
         }
     });
@@ -481,8 +481,24 @@ $(document).ready(function () {
         }
     });
 
+    function isEmail(email) {
+        var EmailRegex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return EmailRegex.test(email);
+    }
+
     $('form').on('submit', function (e) {
-        if (!$(this).hasClass('search') && !$(this).hasClass('no-js')) {
+        var valid = true;
+        var form = $(this);
+        var email = form.find('[type="email"]');
+        if(email.length) {
+            valid = isEmail(email.val());
+            if(!valid) {
+                email.focus();
+                e.preventDefault;
+                return false;
+            }
+        }
+        if (valid && !$(this).hasClass('search') && !$(this).hasClass('no-js')) {
             e.preventDefault();
             $('.pop-up, .transparent_pop-up, .place-agent-choose').removeClass('openned');
             $('#white__block').remove();
@@ -496,8 +512,7 @@ $(document).ready(function () {
             setTimeout(function () {
                 $('.done_pop-up').removeClass('openned');
                 $('#white__block').remove();
-
-                location.reload();
+                /*location.reload();*/
             }, 10000)
         }
     });
@@ -947,26 +962,28 @@ $(window).scroll(function () {
 
 });
 
-let playingNow = false
-let currentTime = "00:00:00"
-let currentTimeFormat = 'HH:mm:ss'
-let players = $('.section__podcast')
-
 $(document).ready(function () {
+    let playingNow = false
+    let currentTime = "00:00:00"
+    let currentTimeFormat = 'HH:mm:ss'
+    let players = $('.section__podcast')
+
     if (players.length) {
         players.each(function (i) {
             let player = $(this)
-            let audio = player.find('audio')
+            let audio = player.find('.section__podcast_audio-tag')
             let name = player.find('.section__podcast_name')
             let timeline = player.find('.timeline')
             let playButton = player.find('.js_play-pause')
             let audioInterval = null
 
             let icons = ['/html/assets/svg/pause.svg', '/html/assets/svg/Audio--Play.svg']
-            player.find('.allTime').html(moment(audio[0].duration * 1000).utc().format(currentTimeFormat))
 
             player.find('.js_play-pause, .section__podcast_icon').click(function () {
                 var obj = player.find('.js_play-pause');
+
+                player.find('.allTime').html(moment(audio[0].duration * 1000).utc().format(currentTimeFormat))
+
                 if (audio[0].paused == true) {
 
                     if (playingNow != false) {
@@ -981,6 +998,7 @@ $(document).ready(function () {
                     audio.trigger('play')
 
                     audioInterval = setInterval(function () {
+                        console.log(audio[0].currentTime);
                         player.find('.curNumTime').text(moment(audio[0].currentTime * 1000).utc().format(currentTimeFormat))
                         player.find('.currentTime').css('width', audio[0].currentTime / audio[0].duration * 100 + '%')
                         currentTime = moment(audio[0].currentTime * 1000).utc().format(currentTimeFormat)
@@ -1039,5 +1057,13 @@ $(document).ready(function () {
             $(`.section__question_filter-item.active`).removeClass("active")
             $(`.section__question_filter-item.--all`).addClass("active")
         }
-    })
+    });
+
+    $('input[placeholder="Имя*"]').on('keydown', function (e){
+        if( !e.key.match(/[A-Za-zа-яА-Я]/) ) return e.preventDefault();
+    });
+
+    $('input[placeholder="Имя*"]').on('input', function (e){
+        $(this).val($(this).val().replace(/[0-9]/g, ""));
+    });
 })

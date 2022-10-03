@@ -7136,6 +7136,17 @@ header.--green .header__soc {
     transition: all .3s ease;
 }
 
+.select2-results__options[aria-multiselectable="true"] .select2-results__option--selected:hover::before,
+.select2-results__options[aria-multiselectable="true"] .select2-results__option--selected::before {
+    background-color: transparent !important;
+    content: '\2713' !important;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+    font-weight: bold;
+    color: #0A95FA;
+}
+
 .select2-dropdown .select2-results__option.select2-results__option--selectable:hover::before {
     background-color: #0A95FA;
 }
@@ -7384,8 +7395,8 @@ form {
     margin-bottom: 24px;
     background-image: url(../img/formKey.svg) !important;
     background-repeat: no-repeat !important;
-    background-size: 55% !important;
-    background-position: right -30px bottom -30px !important;
+    background-size: 62% !important;
+    background-position: right -38px bottom -7px !important;
     position: relative !important;
 }
 

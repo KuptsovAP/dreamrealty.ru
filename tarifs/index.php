@@ -48,77 +48,77 @@ $APPLICATION->SetTitle("ТАРИФЫ");
             </svg>
             <div class="section__content-slider slider w100per">
                 <!--Продажа red -->
-                <?$APPLICATION->IncludeComponent(
+                <? $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
                     "",
-                    Array(
+                    array(
                         "AREA_FILE_SHOW" => "file",
                         "AREA_FILE_SUFFIX" => "inc",
                         "EDIT_TEMPLATE" => "",
                         "FORM_ID" => "",
                         "PATH" => "/include/tarifs/sale.php"
                     )
-                );?>
+                ); ?>
                 <!-- Покупка green -->
-                <?$APPLICATION->IncludeComponent(
+                <? $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
                     "",
-                    Array(
+                    array(
                         "AREA_FILE_SHOW" => "file",
                         "AREA_FILE_SUFFIX" => "inc",
                         "EDIT_TEMPLATE" => "",
                         "FORM_ID" => "",
                         "PATH" => "/include/tarifs/buy.php"
                     )
-                );?>
+                ); ?>
                 <!-- Альтернатива violet -->
-                <?$APPLICATION->IncludeComponent(
+                <? $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
                     "",
-                    Array(
+                    array(
                         "AREA_FILE_SHOW" => "file",
                         "AREA_FILE_SUFFIX" => "inc",
                         "EDIT_TEMPLATE" => "",
                         "FORM_ID" => "",
                         "PATH" => "/include/tarifs/alt.php"
                     )
-                );?>
+                ); ?>
                 <!-- Аренда lightenBlue -->
-                <?$APPLICATION->IncludeComponent(
+                <? $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
                     "",
-                    Array(
+                    array(
                         "AREA_FILE_SHOW" => "file",
                         "AREA_FILE_SUFFIX" => "inc",
                         "EDIT_TEMPLATE" => "",
                         "FORM_ID" => "",
                         "PATH" => "/include/tarifs/rent.php"
                     )
-                );?>
+                ); ?>
                 <!-- Юрсопровождение blue -->
-                <?$APPLICATION->IncludeComponent(
+                <? $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
                     "",
-                    Array(
+                    array(
                         "AREA_FILE_SHOW" => "file",
                         "AREA_FILE_SUFFIX" => "inc",
                         "EDIT_TEMPLATE" => "",
                         "FORM_ID" => "",
                         "PATH" => "/include/tarifs/ur.php"
                     )
-                );?>
+                ); ?>
                 <!-- Ипотека pink -->
-                <?$APPLICATION->IncludeComponent(
+                <? $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
                     "",
-                    Array(
+                    array(
                         "AREA_FILE_SHOW" => "file",
                         "AREA_FILE_SUFFIX" => "inc",
                         "EDIT_TEMPLATE" => "",
                         "FORM_ID" => "",
                         "PATH" => "/include/tarifs/ipoteka.php"
                     )
-                );?>
+                ); ?>
             </div>
         </div>
     </section>
@@ -213,80 +213,84 @@ $APPLICATION->SetTitle("ТАРИФЫ");
         </div>
     </section>
 
-    <?
-    $idvideo = $APPLICATION->GetProperty("idvideo");
-    if ($idvideo) :
-        $idvideo = explode(',', $idvideo);
-        ?>
+<?
+$idvideo = $APPLICATION->GetProperty("idvideo");
+if ($idvideo) :
+    $idvideo = explode(',', $idvideo);
+    ?>
 
-        <section class="section video-media">
-            <div class="wrapper">
-                <div class="section__big-text --mgb40">
-                    <p>DREAM Media</p>
-                </div>
-                <div class="section__video-slider slider">
-                    <?php foreach ($idvideo as $video) :?>
-                        <?
-                        #Получаем Видео из хайлоада
-                        $MY_HL_BLOCK_ID = 4;
-                        $entity_data_class = GetEntityDataClass($MY_HL_BLOCK_ID);
+    <section class="section video-media">
+        <div class="wrapper">
+            <div class="section__big-text --mgb40">
+                <p>DREAM Media</p>
+            </div>
+            <div class="section__video-slider slider">
+                <?php foreach ($idvideo as $video) : ?>
+                    <?
+                    #Получаем Видео из хайлоада
+                    $MY_HL_BLOCK_ID = 4;
+                    $entity_data_class = GetEntityDataClass($MY_HL_BLOCK_ID);
 
-                        $rsData = $entity_data_class::getList(array(
-                            'select' => array('*'),
-                            'filter' => array("ID" => $video),
-                            'cache' => ['ttl' => 604800]
-                        ));
+                    $rsData = $entity_data_class::getList(array(
+                        'select' => array('*'),
+                        'filter' => array("ID" => $video),
+                        'cache' => ['ttl' => 604800]
+                    ));
 
-                        while ($el = $rsData->fetch()):
-                            $URL = CFile::GetFileArray($el['UF_PHOTO']);
-                            $URL = $URL["SRC"];
-                            $video = $el['UF_URL']; ?>
+                    while ($el = $rsData->fetch()):
+                        $URL = CFile::GetFileArray($el['UF_PHOTO']);
+                        $URL = $URL["SRC"];
+                        $video = $el['UF_URL']; ?>
 
-                            <div class="section__video-slide js_video-ratio" data-video="<?= $video ?>" style="background-image: url(<?= $URL ?>);">
-                                <img loading="lazy" src="<?= SITE_TEMPLATE_PATH ?>/assets/svg/VideoButton--<? $APPLICATION->ShowProperty("color") ?>.svg" alt="">
-                            </div>
-                        <?php endwhile;?>
+                        <div class="section__video-slide js_video-ratio" data-video="<?= $video ?>"
+                             style="background-image: url(<?= $URL ?>);">
+                            <img loading="lazy"
+                                 src="<?= SITE_TEMPLATE_PATH ?>/assets/svg/VideoButton--<? $APPLICATION->ShowProperty("color") ?>.svg"
+                                 alt="">
+                        </div>
+                    <?php endwhile; ?>
 
-                    <?php endforeach;?>
-                </div>
+                <?php endforeach; ?>
+            </div>
 
-                <?php if(count($idvideo) > 1) :?>
-                    <div class="section__video-slider_navs g-flex-justify-end g-flex-align-stretch slider-navs">
-                        <button class="js-prev">
-                            <svg class="icon">
-                                <use xlink:href="#ArrowSquare"></use>
-                            </svg>
-                        </button>
-                        <button class="js-next">
-                            <svg class="icon">
-                                <use xlink:href="#ArrowSquare"></use>
-                            </svg>
-                        </button>
-                    </div>
-                <?php endif;?>
-
-                <a target="_blank" href="<?= $options['youtube'] ?>" class="section__edge-button wow fadeInLeft   g-flex-align-center --mgt30">
-                    <div class="arrow g-flex-align-center g-flex-justify-center">
+            <?php if (count($idvideo) > 1) : ?>
+                <div class="section__video-slider_navs g-flex-justify-end g-flex-align-stretch slider-navs">
+                    <button class="js-prev">
                         <svg class="icon">
                             <use xlink:href="#ArrowSquare"></use>
                         </svg>
-                    </div>
-                    Канал Dream Realty
-                </a>
-            </div>
-        </section>
-    <?php endif;?>
+                    </button>
+                    <button class="js-next">
+                        <svg class="icon">
+                            <use xlink:href="#ArrowSquare"></use>
+                        </svg>
+                    </button>
+                </div>
+            <?php endif; ?>
 
-<?$APPLICATION->IncludeComponent(
+            <a target="_blank" href="<?= $options['youtube'] ?>"
+               class="section__edge-button wow fadeInLeft   g-flex-align-center --mgt30">
+                <div class="arrow g-flex-align-center g-flex-justify-center">
+                    <svg class="icon">
+                        <use xlink:href="#ArrowSquare"></use>
+                    </svg>
+                </div>
+                Канал Dream Realty
+            </a>
+        </div>
+    </section>
+<?php endif; ?>
+
+<? $APPLICATION->IncludeComponent(
     "bitrix:main.include",
     "",
-    Array(
+    array(
         "AREA_FILE_SHOW" => "file",
         "AREA_FILE_SUFFIX" => "inc",
         "EDIT_TEMPLATE" => "",
         "FORM_ID" => "",
         "PATH" => "/include/section_have_questions.php"
     )
-);?>
+); ?>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

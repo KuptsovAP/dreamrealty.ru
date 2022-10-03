@@ -5,39 +5,85 @@ $APPLICATION->SetTitle("ПРЕИМУЩЕСТВА ОДОБРЕНИЯ ИПОТЕК
 ?>
     <link rel="stylesheet" href="/bitrix/templates/realty/assets/css/advantages.css?v=<?=rand(0, 255)?>">
 
-    <section class="section advantages-page grayHalfBG">
-        <div class="wrapper">
-            <div class="section__big-text --mgb40">
-                <p>агентство мечты</p>
-            </div>
-            <div class="section__advantages--full g-flex-wrap g-flex-between --mgt180">
-                <a href="#advant_pop-up1" class="section__advantage g-flex-column g-flex-justify-end" style="background-image: url(/html/assets/img/illustrations/violet/01.svg);">
-                    <span class="num">1</span>
-                    <div class="g-flex-align-center g-flex-justify-center"><p><span class="--pink">Максимально быстро одобряем</span> ипотеку</p></div>
-                </a>
-                <a href="#advant_pop-up2" class="section__advantage g-flex-column g-flex-justify-end" style="background-image: url(/html/assets/img/illustrations/violet/02.svg);background-position: center 40px;">
-                    <span class="num">2</span>
-                    <div class="g-flex-align-center g-flex-justify-center"><p>Одобряем ипотеку <span class="--pink">с минимальным первоначальным взносом</span></p></div>
-                </a>
-                <a href="#advant_pop-up3" class="section__advantage g-flex-column g-flex-justify-end" style="background-image: url(/html/assets/img/illustrations/violet/03.svg);background-position: center 10px;">
-                    <span class="num">3</span>
-                    <div class="g-flex-align-center g-flex-justify-center"><p><span class="--pink">Выбираем лучшее предложение из 100+</span> ипотечных программ</p></div>
-                </a>
-                <a href="#advant_pop-up4" class="section__advantage g-flex-column g-flex-justify-end" style="background-image: url(/html/assets/img/illustrations/violet/04.svg);background-position: center 40px;">
-                    <span class="num">4</span>
-                    <div class="g-flex-align-center g-flex-justify-center"><p><span class="--pink">Отправляем заявку сразу</span> в несколько банков</p></div>
-                </a>
-                <a href="#advant_pop-up5" class="section__advantage g-flex-column g-flex-justify-end" style="background-image: url(/html/assets/img/illustrations/violet/05.svg);">
-                    <span class="num">5</span>
-                    <div class="g-flex-align-center g-flex-justify-center"><p>Ощутимо <span class="--pink">снижаем процентную ставку</span></p></div>
-                </a>
-                <a href="#advant_pop-up6" class="section__advantage --phm130 g-flex-column g-flex-justify-end" style="background-image: url(/html/assets/img/illustrations/violet/06.svg);background-position: center 10px;">
-                    <span class="num">6</span>
-                    <div class="g-flex-align-center g-flex-justify-center"><p><span class="--pink">Экономия до 1 млн рублей</span> на текущих расходах и будущих платежах по ипотеке</p></div>
-                </a>
-            </div>
-        </div>
-    </section>
+<?
+global $benefitsFilter;
+$benefitsFilter['PROPERTY_URL'] = '%'.$APPLICATION->GetCurPage().'%';
+$APPLICATION->IncludeComponent(
+    "bitrix:news.list",
+    "benefits",
+    array(
+        "ACTIVE_DATE_FORMAT" => "d.m.Y",
+        "ADD_SECTIONS_CHAIN" => "N",
+        "AJAX_MODE" => "N",
+        "AJAX_OPTION_ADDITIONAL" => "",
+        "AJAX_OPTION_HISTORY" => "N",
+        "AJAX_OPTION_JUMP" => "N",
+        "AJAX_OPTION_STYLE" => "Y",
+        "CACHE_FILTER" => "N",
+        "CACHE_GROUPS" => "Y",
+        "CACHE_TIME" => "36000000",
+        "CACHE_TYPE" => "A",
+        "CHECK_DATES" => "Y",
+        "DETAIL_URL" => "",
+        "DISPLAY_BOTTOM_PAGER" => "Y",
+        "DISPLAY_DATE" => "Y",
+        "DISPLAY_NAME" => "Y",
+        "DISPLAY_PICTURE" => "Y",
+        "DISPLAY_PREVIEW_TEXT" => "Y",
+        "DISPLAY_TOP_PAGER" => "N",
+        "FIELD_CODE" => array(
+            0 => "NAME",
+            1 => "SORT",
+            2 => "PREVIEW_TEXT",
+            3 => "PREVIEW_PICTURE",
+            4 => "DETAIL_TEXT",
+            5 => "DETAIL_PICTURE",
+            6 => "",
+        ),
+        "FILTER_NAME" => "benefitsFilter",
+        "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+        "IBLOCK_ID" => "12",
+        "IBLOCK_TYPE" => "advantages",
+        "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+        "INCLUDE_SUBSECTIONS" => "Y",
+        "SECTION_ID" => "6",
+        "MESSAGE_404" => "",
+        "NEWS_COUNT" => "600",
+        "PAGER_BASE_LINK_ENABLE" => "N",
+        "PAGER_DESC_NUMBERING" => "N",
+        "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+        "PAGER_SHOW_ALL" => "N",
+        "PAGER_SHOW_ALWAYS" => "N",
+        "PAGER_TEMPLATE" => ".default",
+        "PAGER_TITLE" => "Новости",
+        "PARENT_SECTION" => "",
+        "PARENT_SECTION_CODE" => "",
+        "PREVIEW_TRUNCATE_LEN" => "",
+        "PROPERTY_CODE" => array(
+            0 => "BTN_NAME",
+            1 => "URL",
+            2 => "BTN_LINK",
+            3 => "PREVIEW",
+            4 => "",
+            5 => "",
+        ),
+        "SET_BROWSER_TITLE" => "N",
+        "SET_LAST_MODIFIED" => "N",
+        "SET_META_DESCRIPTION" => "N",
+        "SET_META_KEYWORDS" => "N",
+        "SET_STATUS_404" => "N",
+        "SET_TITLE" => "N",
+        "SHOW_404" => "N",
+        "STRICT_SECTION_CHECK" => "N",
+        "COMPONENT_TEMPLATE" => "benefits",
+        "SORT_BY1" => "SORT",
+        "SORT_ORDER1" => "ASC",
+        "SORT_BY2" => "NAME",
+        "SORT_ORDER2" => "ASC",
+        "TITLE" => 'агентство мечты'
+    ),
+    false
+);?>
 
     <section class="section how-it-works --pdb0">
         <div class="wrapper">

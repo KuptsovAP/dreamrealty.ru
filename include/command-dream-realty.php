@@ -53,12 +53,12 @@ if ($comands) {
                             <?php $i++;
                         endforeach; ?>
                     </div>
-
+<? if($arParams['HIDE'] != 'Y') : ?>
                     <svg class="--<? $APPLICATION->ShowProperty("color") ?>" viewBox="0 0 32 32">
                         <path d="M26 16L16 26L6 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M26 6L16 16L6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
-
+<? endif; ?>
                     <div class="section__content-slider slider">
                         <?php $i = 0;
                         foreach ($arComands as $arComand):?>

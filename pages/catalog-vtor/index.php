@@ -684,7 +684,7 @@ if ($idpodcasts) {
                 </button>
             </div>
             <a href="/ursoprovozhd/faq.php" target="_blank"
-               class="section__edge-button wow fadeInLeft  g-flex-align-center --mgt60">
+               class="section__edge-button wow fadeInLeft  g-flex-align-center --mgt40">
                 <div class="arrow g-flex-align-center g-flex-justify-center">
                     <svg class="icon">
                         <use xlink:href="#ArrowSquare"></use>

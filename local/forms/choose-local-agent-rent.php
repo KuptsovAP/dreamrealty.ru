@@ -183,7 +183,7 @@
         </select>
     </label>
     <label>
-        <input type="text" placeholder="Комментарии">
+        <input type="text" placeholder="Адрес, кол-во комнат">
     </label>
     <label class="inputCheckbox">
         <input type="checkbox" required checked>

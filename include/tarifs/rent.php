@@ -65,7 +65,7 @@
                                             class="--big">150</span> тыс</p></div>
                             </td>
                             <td>
-                                <div><p><span class="--big">75</span></p></div>
+                                <div><p><span class="--big">100</span></p></div>
                             </td>
                             <td>
                                 <div><p>min <span class="--big">60.000</span></p></div>
@@ -76,10 +76,10 @@
                                 <div><p>от <span class="--big">150</span> тыс</p></div>
                             </td>
                             <td>
-                                <div><p><span class="--big">50</span></p></div>
+                                <div><p><span class="--big">100</span></p></div>
                             </td>
                             <td>
-                                <div><p>min <span class="--big">75.000</span></p></div>
+                                <div><p>min <span class="--big">150.000</span></p></div>
                             </td>
                         </tr>
                         </tbody>
